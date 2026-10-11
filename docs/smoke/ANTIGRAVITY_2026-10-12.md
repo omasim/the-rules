@@ -1,6 +1,6 @@
 # Antigravity canlı yükleme — 2026-10-12
 
-Durum: PASS — Codex tarafından uygulama arayüzünde doğrudan gözlenen kısa yükleme kontrolü. Bağımsız tekrar değil; üretim faydası kanıtı değil.
+Durum: PASS (sınırlı) — Codex tarafından uygulama arayüzünde doğrudan gözlenen kısa yükleme kontrolü. Bağımsız tekrar değil; üretim faydası kanıtı değil.
 
 Antigravity 2.18.1 (uygulama Info.plist), macOS; UI model etiketi Gemini 3.8 Flash / High. Varsayılan model değiştirilmedi. Profil build; dağıtım 0.13.2-draft yerel checkout araçları. Katalog/profil içerikleri değişmedi. Yayın ZIP'inden kurulum bu kontrolde yeniden sınanmadı.
 
@@ -32,6 +32,6 @@ Kurulum sonrası ve test sonrası verify PASS; mevcut yönetilen dosyaların has
 
 A/C farkı bu sürüm ve build profili için otomatik başlangıç yüklemesini destekler. Rules/Customizations listesi ayrıca kontrol edilmedi. Otomatik yüklemenin her sürüm, profil veya IDE yüzeyinde geçerli olduğu söylenmez. Araçlar teknik olarak devre dışı bırakılmadı. Modelin kurallara uyduğunu, kapsamı koruduğunu veya kalite/hızı artırdığını kanıtlamaz. Özgün pilot sonuçları değişmedi.
 
-Cursor: NOT RUN — uygulama envanterinde yok ve uygulama seçimi Invalid app: Cursor döndü; /Applications altında da Cursor bulunamadı. Kurulum veya hesap açma yapılmadı. Claude Code /context görünümü bu kontrolde ele alınmadı. Boş TheRULES deposu değiştirilmedi.
+Cursor: NOT RUN — uygulama envanterinde yok ve uygulama seçimi Invalid app: Cursor döndü; /Applications altında da Cursor bulunamadı. Kurulum veya hesap açma yapılmadı. Claude Code /context görünümü bu kontrolde ele alınmadı.
 
 Yollar yayıma hazırlanırken `<smoke>` ve `<control>` olarak anonimleştirildi. Kayıt final yanıt alanlarının UI gözlem özetidir; raw model JSON veya tam araç-denetim logu değildir.

@@ -4,7 +4,7 @@
 |---|---|---|
 | Claude Code | PASS — kullanıcı tarafından raporlanan canlı yükleme testi (2.1.295, `claude-opus-5-5`, macOS, `build`) | [CLAUDE_CODE_2026-10-11](smoke/CLAUDE_CODE_2026-10-11.md) |
 | Cursor | NOT RUN | — |
-| Antigravity | PASS — doğrudan UI gözlemi (2.18.1, Gemini 3.8 Flash High, macOS, build; araçlar teknik olarak kapatılmadı) | [ANTIGRAVITY_2026-10-12](smoke/ANTIGRAVITY_2026-10-12.md) |
+| Antigravity | PASS (sınırlı) — doğrudan UI gözlemi (2.18.1, Gemini 3.8 Flash High, macOS, build; araçlar teknik olarak kapatılmadı) | [ANTIGRAVITY_2026-10-12](smoke/ANTIGRAVITY_2026-10-12.md) |
 
 Claude Code kaydında `/context` Memory files görünümü kontrol edilmedi; otomatik yükleme araçsız oturum ile kurulumsuz kontrol projesinin karşılaştırılmasıyla gösterildi.
 
