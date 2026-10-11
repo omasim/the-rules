@@ -151,6 +151,6 @@ def main():
         x = install(a.project, json.loads(Path(a.context).read_text(encoding='utf-8')), a.clients.split(',')) if a.cmd == 'install' else verify(a.project) if a.cmd == 'verify' else remove(a.project)
     except (ValueError, OSError, KeyError, json.JSONDecodeError) as e:
         p.exit(2, str(e) + '\n')
-    print(json.dumps(x, ensure_ascii=False, indent=2))
+    print(json.dumps(x, ensure_ascii=True, indent=2))
 if __name__ == '__main__':
     main()
