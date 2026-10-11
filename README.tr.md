@@ -1,22 +1,19 @@
 # THE RULES
 
-AI ile yazılım üretimi için kaynak izli bir kanun kütüphanesi. Amaç: problemi araştırmak, kritik varsayımı ucuzca sınamak, yeterli çerçeveyi kurmak, kapsamı koruyarak çalışan prototipe ulaşmak ve gerçek çıktıyı doğrulayarak teslim etmek.
+AI ile yazılım üretimi için deneysel, kaynak izli bir çalışma rehberi. Yeterli planlama, ihtiyaç kadar mühendislik ve doğrulanmış teslim hedeflenir. **Ek kalite veya hız faydası henüz gösterilmedi.**
 
-**Deneysel / DRAFT.** Gereksiz planlama ve mimariyi azaltmayı hedefler; gereken mühendisliği atlamayı önermez. Ek kalite veya hız faydası henüz gösterilmedi.
-
-Claude Code, Cursor, Antigravity ve Codex için yerel adaptörler var. Kütüphane 244 taslak kayıt içerir; her aşamada iki ilgili çekirdek kanun seçilir. Yeni yetki vermez, AI davranışını zorunlu kılmaz.
-
-Python 3.9+ ve standart kütüphane yeterli. examples/build.json içindeki task ve decision_gap alanlarını gerçek işinle düzenle. Paket klasöründe:
+Ürün sekiz çekirdek kanundur: her birinin tetikleyicisi, kontrolü ve durma/orantı koşulu vardır. Güncel görev, kabul ve aşama canlı oturumdan gelir; kurulumda sabitlenmez. Küçük işte tüm aşamaları baştan yürütmek gerekmez. Ajanın doğru kanunu seçtiği varsayılmaz; bu da sınanmalıdır.
 
 ```sh
-python3 -B tools/clients.py install --project /projenin/tam/yolu --context examples/build.json --clients claude,cursor,antigravity
+python3 -B tools/clients.py install --project /projenin/tam/yolu --clients claude,cursor,antigravity
 python3 -B tools/clients.py verify --project /projenin/tam/yolu
+python3 -B tools/clients.py remove --project /projenin/tam/yolu
 ```
 
-Tek araç için --clients claude, cursor veya antigravity kullan. Codex için aynı hedefte diğer kurulumu yapmadan tools/integrate.py aracını --agents ile kullan. Mevcut dosyalar korunur; aynı adlı adaptör üzerine yazılmaz. Dosyalar sonradan düzenlenmişse kaldırma silmeden durur.
+Codex için aynı araçta --clients codex kullan. Tek araç seçilebilir; Codex'i Cursor/Antigravity ile birlikte seçme, ortak AGENTS keşfi çift yüklemeye yol açabilir. Profil değişimi için kurulum söküp takmak artık gerekmez; yeni varsayılan görev/aşama taşımıyor.
 
-Araştırma: discover; çerçeve: frame; üretim: build; değişiklik: change; teslim: deliver. Örneklerin her biri examples/ altında. Profil otomatik tahmin edilmez, bütün aşamalar küçük işte baştan yürütülmez.
+library/ içindeki diğer 236 kayıt benimsenmemiş araştırma/aday arşividir; yeni varsayılan bağlama yüklenmez. Tarihsel katalog ve profiller korunur. Eski kurulumlar otomatik değiştirilmez; [geçiş belgesini](docs/MIGRATION_0.14.md) izle.
 
-[Tam kullanım](README.md) · [Kanıt özeti](docs/EVIDENCE.md) · [Gerçek istemci kontrolü](docs/CLIENT_SMOKE.md).
+Önceki Claude/Antigravity yükleme sonuçları iki-kanun build profiline aittir. Yeni sekizli rehberin canlı yüklemesi henüz NOT RUN. Lisans eklenmedi; genel yeniden kullanım hakkı veya açık kaynak iddiası yok.
 
-Henüz lisans eklenmedi; proje açık kaynak lisanslı olarak duyurulmamalı. Kanunlar ve yeni tasarım kararları benimsenmiş zorunlu politika değil, taslak/öneridir.
+[Tam kullanım](README.md) · [Kanıtlar](docs/EVIDENCE.md) · [Yeni deney önerisi](docs/NEXT_EXPERIMENT.md).

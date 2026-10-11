@@ -1,54 +1,47 @@
 # THE RULES
 
-A source-traced rule library for AI-assisted software work: research the problem, test critical assumptions, define a sufficient scope, build a working prototype, verify it, and deliver it without unnecessary planning or architecture.
+An experimental, source-traced working guide for AI-assisted software projects. Research the real problem, test the critical assumption, set enough scope, build the narrow working flow, verify it, and deliver. Each core law includes a trigger and a proportionality/stop condition.
 
-**Experimental / DRAFT.** Local adapters are available for Claude Code, Cursor, Google Antigravity, and Codex. The library does not grant additional authority or enforce model behavior. Our pilots have **not demonstrated an additional quality or speed benefit** from adding THE RULES.
+**DRAFT / advisory. Additional quality or speed benefit has not been demonstrated.** This is a working-style guide, not a proven productivity system, enforced policy, or grant of authority. [Evidence and negative results](docs/EVIDENCE.md).
 
-[ Türkçe / Turkish ](README.tr.md)
+[ Türkçe ](README.tr.md)
 
-## Start with two relevant laws
+## What you install
 
-| Phase | Profile | Laws |
-|---|---|---|
-| Research a problem or idea | discover | L01, L02 |
-| Define acceptance and scope | frame | L02, L03 |
-| Build the first real flow | build | L04, L05 |
-| Handle a defect or proposed change | change | L05, L06 |
-| Verify and deliver | deliver | L07, L08 |
+Eight core laws in `guide/core.json`. The guide carries no frozen project task or phase. Current task, acceptance, phase and decision gaps come from the live user request and project evidence. Apply only the laws that affect the next decision; do not restart a full lifecycle or create documents for every small edit. Agent selection of the right trigger is itself unverified.
 
-The full catalog contains 244 draft records: eight core laws and 236 retained synthesis/control records. Selecting a profile does not delete or ratify other records. Context content is currently Turkish; this README provides English navigation.
+The installable guide is Turkish. English documentation explains the interface; an English law translation is not yet available. Actual UTF-8 byte size is reported by `guide_check.py`; tokens and effectiveness are not inferred from size.
 
-## Install into a project
+## One project installer
 
-Python 3.9+, standard library only. Clone this repository, select a reviewed commit, and run commands from this checkout. Do not run unreviewed remote scripts. First edit `examples/build.json` with your actual task and decision gap.
+Python 3.9+, standard library only. From a reviewed checkout:
 
 ```sh
-python3 -B tools/clients.py install --project /absolute/path/to/project --context examples/build.json --clients claude,cursor,antigravity
+python3 -B tools/clients.py install --project /absolute/path/to/project --clients claude,cursor,antigravity
 python3 -B tools/clients.py verify --project /absolute/path/to/project
-```
-
-Use a single client name if needed. Claude Code appends a managed section to `CLAUDE.md`; Cursor creates `.cursor/rules/the-rules.mdc`; Antigravity creates `.agents/rules/the-rules.md`. The selected short content is embedded directly. Existing user rules are preserved; conflicting managed paths are refused.
-
-For Codex, choose this installer instead:
-
-```sh
-python3 -B tools/integrate.py install --project /absolute/path/to/project --context examples/build.json --agents
-python3 -B tools/integrate.py verify --project /absolute/path/to/project
-```
-
-Both installers use `.the-rules/`; do not stack them. Shared AGENTS.md discovery may otherwise duplicate guidance. Installation is project-local and does not change global settings or accounts.
-
-## Remove or switch
-
-```sh
 python3 -B tools/clients.py remove --project /absolute/path/to/project
-# For an installation made with integrate.py:
-python3 -B tools/integrate.py remove --project /absolute/path/to/project
 ```
 
-Removal restores original files only when installed files are unchanged. Modified adapters, extra files, symlinks, or conflicting paths cause a refusal so work is preserved. Switching profile or client set requires reviewing/removing the old installation first. Version-control your project: the installer does not promise crash-safe multi-file transactions or concurrent-install safety.
+Use a single name if needed. For Codex use the same installer with `--clients codex`. Do not combine Codex with Cursor/Antigravity in one installation: shared AGENTS.md discovery could duplicate context.
 
-## Check the package
+| Client | Project file |
+|---|---|
+| Claude Code | Managed section appended to CLAUDE.md |
+| Cursor | .cursor/rules/the-rules.mdc |
+| Antigravity | .agents/rules/the-rules.md |
+| Codex | Managed section appended to AGENTS.md |
+
+The eight-law text is embedded in each adapter. Existing user text is preserved; existing dedicated rule files are refused. Installation, repeat installation, integrity verification and guarded removal use one state format. Only installer-created empty directories are cleaned. Modified files and unexpected integration files are preserved with an error. Global settings and accounts are untouched. Use project version control; no crash-safe multi-file or concurrent-install guarantee is made.
+
+## Existing installations
+
+No automatic migration or overwrite. The old two-law profile installer remains an explicitly deprecated `--context` compatibility mode; it is not the recommended product. Remove a previous installation with its corresponding verified tool, then install the guide. `integrate.py` is a compatibility entry point: new Codex installs delegate to clients.py; legacy integration.json verification/removal uses a retained cleanup engine. Old catalog/profile tools remain for research reproducibility. [Migration](docs/MIGRATION_0.14.md).
+
+## Research archive, not the installed product
+
+`library/` preserves 236 unratified detail/control records plus the eight historical core records, with source trace. `profiles/` preserves the old explicit two-law mappings. They are a research/candidate archive, not a promise that every record reaches the model or has been adopted. They are not loaded by the default guide installation. [Archive status](library/README.md).
+
+## Verification and limits
 
 ```sh
 python3 -B tools/check.py
@@ -56,21 +49,10 @@ python3 -B tools/integration_check.py
 python3 -B tools/clients_check.py
 python3 -B tools/portability_check.py
 python3 -B tools/stdout_check.py
+python3 -B tools/guide_check.py
 python3 -B tools/verify_package.py
 ```
 
-These check selection, source integrity, local install, repeat install, and restoration in temporary projects. They do not start AI models. [Client documentation](docs/CLIENT_COMPATIBILITY.md) and [live loading check](docs/CLIENT_SMOKE.md) explain what remains to verify.
+CI runs all seven on Ubuntu and Windows/Python 3.9. Prior client-loading evidence applies to the old two-law build profile: Claude Code PASS (tools disabled), Antigravity PASS (limited), Cursor NOT RUN. **The new eight-law guide is not yet live-tested in any client.** Loading is not rule compliance or improved output. Prior pilot findings remain unchanged.
 
-## Evidence and limitations
-
-[Evidence summary](docs/EVIDENCE.md) reports successful local integration checks and three pilot families. Live loading is reported as PASS for Claude Code (headless CLI, tools disabled) and PASS (limited) for Antigravity (direct UI observation, tools not technically disabled), each on macOS with the `build` profile and the documented limits. Cursor remains NOT RUN; see the linked observation records. A rule file is guidance, not a security boundary. We publish limitations and negative results alongside intended behavior.
-
-## Status and rights
-
-Distribution candidate: `v0.13.2-draft`; profile content: `0.11.0-draft`; catalog content: `0.3.0-draft`. No public license has been granted yet. Public visibility does not mean permission to redistribute or reuse under MIT or another open-source license. Third-party sources retain their own rights. See [rights notice](NOTICE.md).
-
-Contributions: [CONTRIBUTING.md](CONTRIBUTING.md). Changes to laws remain proposals until explicitly adopted.
-
-Portability: tracked text stays LF with `.gitattributes`; generated text explicitly uses UTF-8/LF. CP1252 and CRLF behavior are simulated in regression tests; native Windows execution remains unverified. Removal cleans only empty directories created by the installer, preserving existing directories and added user files.
-
-GitHub Actions runs all six checks with Python 3.9 on Ubuntu and Windows for pushes and pull requests. Workflow configuration is not itself a passing platform result; inspect the associated run.
+Distribution candidate 0.14.0-draft; new guide content 0.14; historical catalog 0.3 and profiles 0.11 are unchanged. No public license is granted, as explicitly chosen by the owner; this is not an open-source licensing claim. [Rights](NOTICE.md), [contributions](CONTRIBUTING.md), [next experiment proposal](docs/NEXT_EXPERIMENT.md).
