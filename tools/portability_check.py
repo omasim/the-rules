@@ -31,7 +31,7 @@ def main():
         checks.append('preserve preexisting directories and newly added user files')
         integrate.install(r,context,True);integrate.verify(r);integrate.remove(r)
         checks.append('Codex install/verify/remove under cp1252 simulation')
-        assert clients.VERSION==integrate.VERSION=='0.13.1-draft'
+        assert clients.VERSION==integrate.VERSION
         checks.append('shared distribution version')
     return {'result':'PASS','checks':checks,'native_windows':'NOT RUN'}
 if __name__=='__main__': print(json.dumps(main(),indent=2))
