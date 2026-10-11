@@ -1,3 +1,7 @@
+# Historical two-law profile loading tests
+
+These records concern the old build profile. New 0.14 eight-law guide loading is NOT RUN for every client; prior PASS statuses are not transferred to it.
+
 # Gerçek istemci kontrolü
 
 | İstemci | Durum | Kayıt |

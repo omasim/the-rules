@@ -1,6 +1,6 @@
 from pathlib import Path
 import tempfile, json
-import integrate
+import legacy_integrate as integrate
 
 def main():
     c = {'phase': 'build', 'task': 'Yerel CLI', 'decision_gap': 'Hatalı girdide çıktı koruması'}

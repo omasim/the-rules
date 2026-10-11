@@ -2,8 +2,9 @@ from textio import write_utf8
 from pathlib import Path
 import argparse, json, hashlib, tempfile, os, shutil
 import selector
+import guide
 from version import VERSION
-PATHS = {'claude': 'CLAUDE.md', 'cursor': '.cursor/rules/the-rules.mdc', 'antigravity': '.agents/rules/the-rules.md'}
+PATHS = {'claude': 'CLAUDE.md', 'cursor': '.cursor/rules/the-rules.mdc', 'antigravity': '.agents/rules/the-rules.md', 'codex': 'AGENTS.md'}
 
 def hashbytes(x):
     return hashlib.sha256(x).hexdigest()
@@ -25,9 +26,9 @@ def safe(r, p):
 
 def render(client, body):
     if client == 'cursor':
-        return '---\ndescription: THE RULES selected draft profile\nalwaysApply: true\n---\n' + body
+        return '---\ndescription: THE RULES draft working guide\nalwaysApply: true\n---\n' + body
     if client == 'antigravity':
-        return '---\ntrigger: always_on\ndescription: THE RULES selected draft profile\n---\n' + body
+        return '---\ntrigger: always_on\ndescription: THE RULES draft working guide\n---\n' + body
     return '\n\n<!-- THE RULES managed start -->\n' + body + '<!-- THE RULES managed end -->\n'
 
 def verify(project):
@@ -56,9 +57,9 @@ def install(project, context, clients):
     safe(r, base)
     chosen = sorted(set(clients))
     if not chosen or any((c not in PATHS for c in chosen)):
-        raise ValueError('choose claude,cursor,antigravity')
-    p = selector.select(context)
-    selection = {'version': VERSION, 'clients': chosen, 'catalog_sha256': p['catalog_sha256'], 'profiles_sha256': p['profiles_sha256'], 'phase': p['profile']['id'], 'task': p['task'], 'decision_gap': p['decision_gap']}
+        raise ValueError('choose claude,cursor,antigravity,codex')
+    p = selector.select(context) if context is not None else guide.select()
+    selection = ({'version': VERSION, 'clients': chosen, 'catalog_sha256': p['catalog_sha256'], 'profiles_sha256': p['profiles_sha256'], 'phase': p['profile']['id'], 'task': p['task'], 'decision_gap': p['decision_gap']} if context is not None else {'version': VERSION, 'clients': chosen, 'mode': p['mode'], 'guide_sha256': p['guide_sha256']})
     if base.exists():
         if not (base / 'clients.json').is_file():
             raise ValueError('existing .the-rules; preserve/remove its own managed integration first')
@@ -66,22 +67,24 @@ def install(project, context, clients):
             raise ValueError('different install exists; no implicit switch')
         verify(r)
         return {'result': 'UNCHANGED', 'selection': selection}
+    if 'codex' in chosen and any(c in chosen for c in ['cursor','antigravity']):
+        raise ValueError('install codex separately to avoid shared AGENTS.md duplicate loading')
     planned = {}
     for c in chosen:
         path = r / PATHS[c]
         safe(r, path)
         old = path.read_bytes() if path.exists() else b''
-        if c != 'claude' and path.exists():
+        if c not in ['claude', 'codex'] and path.exists():
             raise ValueError('adapter already exists: ' + PATHS[c])
-        if c == 'claude' and b'<!-- THE RULES managed' in old:
+        if c in ['claude', 'codex'] and b'<!-- THE RULES managed' in old:
             raise ValueError('CLAUDE marker already exists')
-        payload = render(c, selector.render(p)).encode()
-        planned[PATHS[c]] = {'old': old, 'existed': path.exists(), 'new': old + payload if c == 'claude' else payload}
+        payload = render(c, selector.render(p) if context is not None else guide.render(p)).encode()
+        planned[PATHS[c]] = {'old': old, 'existed': path.exists(), 'new': old + payload if c in ['claude', 'codex'] else payload}
     created = []
     with tempfile.TemporaryDirectory(prefix='.rules-stage-', dir=r) as tmp:
         staged = Path(tmp) / 'payload'
         staged.mkdir()
-        selector.bundle(context, staged / 'context')
+        selector.bundle(context, staged / 'context') if context is not None else guide.bundle(staged / 'context')
         (staged / 'originals').mkdir()
         info = {'selection': selection, 'adapters': {}, 'files': {}, 'created_dirs': []}
         for (idx, (n, v)) in enumerate(planned.items()):
@@ -142,13 +145,13 @@ def main():
     s = p.add_subparsers(dest='cmd', required=True)
     a = s.add_parser('install')
     a.add_argument('--project', required=True)
-    a.add_argument('--context', required=True)
-    a.add_argument('--clients', required=True, help='comma separated claude,cursor,antigravity')
+    a.add_argument('--context', help='deprecated explicit frozen-profile compatibility mode')
+    a.add_argument('--clients', required=True, help='comma separated claude,cursor,antigravity,codex')
     for n in ['verify', 'remove']:
         s.add_parser(n).add_argument('--project', required=True)
     a = p.parse_args()
     try:
-        x = install(a.project, json.loads(Path(a.context).read_text(encoding='utf-8')), a.clients.split(',')) if a.cmd == 'install' else verify(a.project) if a.cmd == 'verify' else remove(a.project)
+        x = install(a.project, json.loads(Path(a.context).read_text(encoding='utf-8')) if a.context else None, a.clients.split(',')) if a.cmd == 'install' else verify(a.project) if a.cmd == 'verify' else remove(a.project)
     except (ValueError, OSError, KeyError, json.JSONDecodeError) as e:
         p.exit(2, str(e) + '\n')
     print(json.dumps(x, ensure_ascii=True, indent=2))
