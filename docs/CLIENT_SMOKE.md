@@ -1,8 +1,23 @@
-# Historical two-law profile loading tests
+# Gerçek istemci yükleme kontrolleri
 
-These records concern the old build profile. Prior two-law PASS statuses are not transferred to the eight-law guide. See the separate 0.14 status below.
+Bu kontroller yalnız kural dosyasının istemci tarafından yüklendiğini gösterir. Ajanın doğru tetikleyiciyi seçtiğini, kurallara uyduğunu veya üretim kalitesini artırdığını göstermez. Pilot sonuçları değişmez.
 
-# Gerçek istemci kontrolü
+## 0.14 sekizli rehber (güncel kurulum)
+
+| İstemci | Durum | Kayıt |
+|---|---|---|
+| Claude Code | PASS — kullanıcı tarafından raporlanan, araçları kapalı karşılaştırmalı yükleme testi (2.1.295, `claude-opus-5-5`, macOS, headless `-p`) | [CORE_CLAUDE_CODE_2026-10-12](smoke/CORE_CLAUDE_CODE_2026-10-12.md) |
+| Antigravity | PASS (sınırlı) — doğrudan UI gözlemi; araçlar teknik olarak kapatılmadı (2.18.1, Gemini 3.8 Flash High, macOS) | [CORE_ANTIGRAVITY_2026-10-12](smoke/CORE_ANTIGRAVITY_2026-10-12.md) |
+| Cursor | NOT RUN | — |
+| Codex | NOT RUN | — |
+
+Claude Code'da etkileşimli `/context` Memory files görünümü kontrol edilmedi; otomatik yükleme, araçsız kurulu proje ile araçsız kurulumsuz kontrol projesinin karşılaştırılmasıyla gösterildi.
+
+Yeni kontrol için: biri kurulu, biri kurulumsuz iki yeni proje açın; ikisinde de yeni sohbette, kanun kimliklerini veya beklenen değerleri içermeyen aynı istemi kullanın. Mümkünse araçları teknik olarak kapatın; kapatılamıyorsa bunu kayıtta sınır olarak belirtin. İstem ve kayıt biçimi için yukarıdaki kayıtlara bakın. İstemci sürümü, model, işletim sistemi, araç izinleri, görülen dosya yolu ve gerçek yanıtı kaydedin.
+
+## Tarihsel: iki-kanun build profili (0.13)
+
+Bu kayıtlar eski build profiline aittir. Buradaki PASS durumları sekizli rehbere aktarılmaz.
 
 | İstemci | Durum | Kayıt |
 |---|---|---|
@@ -19,14 +34,3 @@ Her uygulamada hedef projeyi açıp yeni bir sohbet başlatın. Claude Code'da /
 build örneğinde beklenen kimlikler L04 ve L05. Beklenen dosya yolu her istemcinin kendi adaptör yoludur. Yalnız genel bir kanun özeti yeterli kanıt sayılmaz. Uygulama sürümü, profil, görülen dosya, gerçek yanıt ve varsa yükleme hatasını kaydedin. Kontrol doğrudan kütüphane dosyasını isteyerek erişimi de sağlayabildiğinden otomatik başlangıç yüklenmesini tek başına kanıtlamaz; Rules/Memory görünümüyle birlikte değerlendirin.
 
 Bu küçük kontrol erişim/yükleme içindir; kuralların izlendiği veya üretim kalitesinin arttığı anlamına gelmez. Mevcut deney sonuçları değişmez. Cursor ile henüz gerçek oturum yapılmadı. Antigravity kısa kontrolü ve sınırları yukarıdaki kayıttadır.
-
-## 0.14 eight-law guide
-
-| Client | New guide status | Record |
-|---|---|---|
-| Antigravity | PASS (limited) — direct UI observation, tools not technically disabled | [Core guide test](smoke/CORE_ANTIGRAVITY_2026-10-12.md) |
-| Claude Code | NOT RUN — CLI inaccessible in this Codex environment | — |
-| Cursor | NOT RUN | — |
-| Codex | NOT RUN | — |
-
-This is loading evidence only, not correct trigger selection or production benefit.

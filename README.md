@@ -53,6 +53,6 @@ python3 -B tools/guide_check.py
 python3 -B tools/verify_package.py
 ```
 
-CI runs all seven on Ubuntu and Windows/Python 3.9. Prior client-loading evidence applies to the old two-law build profile: Claude Code PASS (tools disabled), Antigravity PASS (limited), Cursor NOT RUN. **New eight-law guide: Antigravity PASS (limited) in a fresh installed/uninstalled UI comparison; Claude Code, Cursor and Codex NOT RUN.** Loading is not rule compliance or improved output. Prior pilot findings remain unchanged.
+CI runs all seven on Ubuntu and Windows/Python 3.9. Prior client-loading evidence applies to the old two-law build profile: Claude Code PASS (tools disabled), Antigravity PASS (limited), Cursor NOT RUN. **New eight-law guide: Claude Code PASS (user-reported, tools-disabled comparative loading test); Antigravity PASS (limited) in a fresh installed/uninstalled UI comparison; Cursor and Codex NOT RUN.** Loading is not rule compliance or improved output. Prior pilot findings remain unchanged.
 
 Distribution candidate 0.14.0-draft; new guide content 0.14; historical catalog 0.3 and profiles 0.11 are unchanged. No public license is granted, as explicitly chosen by the owner; this is not an open-source licensing claim. [Rights](NOTICE.md), [contributions](CONTRIBUTING.md), [next experiment proposal](docs/NEXT_EXPERIMENT.md).
