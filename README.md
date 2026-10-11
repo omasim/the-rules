@@ -67,8 +67,10 @@ These check selection, source integrity, local install, repeat install, and rest
 
 ## Status and rights
 
-Distribution candidate: `v0.13.1-draft`; profile content: `0.11.0-draft`; catalog content: `0.3.0-draft`. No public license has been granted yet. Public visibility does not mean permission to redistribute or reuse under MIT or another open-source license. Third-party sources retain their own rights. See [rights notice](NOTICE.md).
+Distribution candidate: `v0.13.2-draft`; profile content: `0.11.0-draft`; catalog content: `0.3.0-draft`. No public license has been granted yet. Public visibility does not mean permission to redistribute or reuse under MIT or another open-source license. Third-party sources retain their own rights. See [rights notice](NOTICE.md).
 
 Contributions: [CONTRIBUTING.md](CONTRIBUTING.md). Changes to laws remain proposals until explicitly adopted.
 
 Portability: tracked text stays LF with `.gitattributes`; generated text explicitly uses UTF-8/LF. CP1252 and CRLF behavior are simulated in regression tests; native Windows execution remains unverified. Removal cleans only empty directories created by the installer, preserving existing directories and added user files.
+
+GitHub Actions runs all six checks with Python 3.9 on Ubuntu and Windows for pushes and pull requests. Workflow configuration is not itself a passing platform result; inspect the associated run.
