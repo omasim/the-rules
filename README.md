@@ -55,6 +55,7 @@ python3 -B tools/check.py
 python3 -B tools/integration_check.py
 python3 -B tools/clients_check.py
 python3 -B tools/portability_check.py
+python3 -B tools/stdout_check.py
 python3 -B tools/verify_package.py
 ```
 

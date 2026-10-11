@@ -1,5 +1,5 @@
-from textio import write_utf8
 """Local explicit opt-in integration; no network, model calls, or remote publication."""
+from textio import write_utf8
 from pathlib import Path
 import argparse, json, hashlib, shutil, tempfile, os
 import selector
@@ -108,6 +108,6 @@ def main():
         r = install(x.project, json.loads(Path(x.context).read_text(encoding='utf-8')), x.agents) if x.cmd == 'install' else verify(x.project) if x.cmd == 'verify' else remove(x.project)
     except (ValueError, OSError, KeyError, json.JSONDecodeError) as e:
         a.exit(2, str(e) + '\n')
-    print(json.dumps(r, ensure_ascii=False, indent=2))
+    print(json.dumps(r, ensure_ascii=True, indent=2))
 if __name__ == '__main__':
     main()
