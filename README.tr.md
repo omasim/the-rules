@@ -14,6 +14,6 @@ Codex için aynı araçta --clients codex kullan. Tek araç seçilebilir; Codex'
 
 library/ içindeki diğer 236 kayıt benimsenmemiş araştırma/aday arşividir; yeni varsayılan bağlama yüklenmez. Tarihsel katalog ve profiller korunur. Eski kurulumlar otomatik değiştirilmez; [geçiş belgesini](docs/MIGRATION_0.14.md) izle.
 
-Önceki Claude/Antigravity yükleme sonuçları iki-kanun build profiline aittir. Yeni sekizli rehberin canlı yüklemesi henüz NOT RUN. Lisans eklenmedi; genel yeniden kullanım hakkı veya açık kaynak iddiası yok.
+Önceki Claude/Antigravity yükleme sonuçları iki-kanun build profiline aittir. Yeni sekizli rehber: Antigravity PASS (sınırlı); Claude Code, Cursor ve Codex NOT RUN. Lisans eklenmedi; genel yeniden kullanım hakkı veya açık kaynak iddiası yok.
 
 [Tam kullanım](README.md) · [Kanıtlar](docs/EVIDENCE.md) · [Yeni deney önerisi](docs/NEXT_EXPERIMENT.md).

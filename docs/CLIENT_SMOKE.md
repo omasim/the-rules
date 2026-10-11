@@ -1,6 +1,6 @@
 # Historical two-law profile loading tests
 
-These records concern the old build profile. New 0.14 eight-law guide loading is NOT RUN for every client; prior PASS statuses are not transferred to it.
+These records concern the old build profile. Prior two-law PASS statuses are not transferred to the eight-law guide. See the separate 0.14 status below.
 
 # Gerçek istemci kontrolü
 
@@ -19,3 +19,14 @@ Her uygulamada hedef projeyi açıp yeni bir sohbet başlatın. Claude Code'da /
 build örneğinde beklenen kimlikler L04 ve L05. Beklenen dosya yolu her istemcinin kendi adaptör yoludur. Yalnız genel bir kanun özeti yeterli kanıt sayılmaz. Uygulama sürümü, profil, görülen dosya, gerçek yanıt ve varsa yükleme hatasını kaydedin. Kontrol doğrudan kütüphane dosyasını isteyerek erişimi de sağlayabildiğinden otomatik başlangıç yüklenmesini tek başına kanıtlamaz; Rules/Memory görünümüyle birlikte değerlendirin.
 
 Bu küçük kontrol erişim/yükleme içindir; kuralların izlendiği veya üretim kalitesinin arttığı anlamına gelmez. Mevcut deney sonuçları değişmez. Cursor ile henüz gerçek oturum yapılmadı. Antigravity kısa kontrolü ve sınırları yukarıdaki kayıttadır.
+
+## 0.14 eight-law guide
+
+| Client | New guide status | Record |
+|---|---|---|
+| Antigravity | PASS (limited) — direct UI observation, tools not technically disabled | [Core guide test](smoke/CORE_ANTIGRAVITY_2026-10-12.md) |
+| Claude Code | NOT RUN — CLI inaccessible in this Codex environment | — |
+| Cursor | NOT RUN | — |
+| Codex | NOT RUN | — |
+
+This is loading evidence only, not correct trigger selection or production benefit.
