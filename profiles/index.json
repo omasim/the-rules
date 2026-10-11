@@ -1,0 +1,56 @@
+{
+  "version": "0.11.0-draft",
+  "status": "DRAFT",
+  "profiles": [
+    {
+      "id": "discover",
+      "laws": [
+        "L01",
+        "L02"
+      ],
+      "trigger": "Fikir veya problem henüz sınanmadı",
+      "target": "Bir sonraki kararı değiştiren kanıtı bul; tek kritik varsayım için ucuz sınama seç.",
+      "stop": "Araştırma yeni kararı değiştirmiyorsa üretime geç."
+    },
+    {
+      "id": "frame",
+      "laws": [
+        "L02",
+        "L03"
+      ],
+      "trigger": "Amaç biliniyor; kabul ve kapsam henüz açık değil",
+      "target": "İlk akış, kabul, kapsam dışı ve pahalı belirsizliği kısa kayda bağla.",
+      "stop": "Mevcut görev bunları karşılıyorsa yeni plan belgesi üretme."
+    },
+    {
+      "id": "build",
+      "laws": [
+        "L04",
+        "L05"
+      ],
+      "trigger": "Çerçeve belli; dar akış üretilecek",
+      "target": "Temel akışı çalıştır; gerekli veri/hata sınırını koru, mimariyi somut ihtiyaçla gerekçelendir.",
+      "stop": "Çalışan ilk akış elde edilince doğrulamaya geç."
+    },
+    {
+      "id": "change",
+      "laws": [
+        "L05",
+        "L06"
+      ],
+      "trigger": "Üretimde hata, engel veya yeni fikir var",
+      "target": "Kapsam içi düzeltmeyi yap; kapsam değişikliğinin kabul ve maliyet etkisini görünür tut.",
+      "stop": "Mevcut yetki yeterliyse tekrar onay isteme; kapsam dışı fikir tek başına yetki değildir."
+    },
+    {
+      "id": "deliver",
+      "laws": [
+        "L07",
+        "L08"
+      ],
+      "trigger": "Çıktı var; kabul ve teslim incelenecek",
+      "target": "Gerçek sınırdaki çıktıyı kontrol et; çalıştırma yolu ve kanıtın sınırını teslim et.",
+      "stop": "Kabul karşılandıysa yeni özellik ekleyerek teslimi erteleme."
+    }
+  ]
+}

@@ -1,0 +1,4582 @@
+[
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "Y1",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-Y1"
+    ],
+    "system_primary_law": "L03",
+    "system_related_laws": [
+      "L03",
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Katman düzeni ortak kapsam disiplinini yapılandırır; A/B öneki alan bağımsızlığı göstermez.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "Y2",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-Y2"
+    ],
+    "system_primary_law": "L08",
+    "system_related_laws": [
+      "L08",
+      "L03"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "İstisna kaydı ortak; katı hiyerarşi ve süre bitimi ek yönetim tercihidir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "Y3",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-Y3"
+    ],
+    "system_primary_law": "L08",
+    "system_related_laws": [
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Kimlik/kaynak kaydı ortak; tek dosya ve dört bölüm örgütleme tercihidir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "Y4",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-Y4"
+    ],
+    "system_primary_law": "L03",
+    "system_related_laws": [
+      "L03",
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Tekil karşılaştırma ortak; bütün kuralların genel olması yerel tercihleri dışlar.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "Y5",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-Y5"
+    ],
+    "system_primary_law": "L03",
+    "system_related_laws": [
+      "L03",
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Köken ile benimsenme ayrı; yaşam döngüsü ve sahip geçişleri ilave yönetimdir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "Y6",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-Y6"
+    ],
+    "system_primary_law": "L06",
+    "system_related_laws": [
+      "L06",
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Sürümlü anlam değişimi ortak; semver eşikleri ek politikadır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "Y7",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-Y7"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05",
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Kimlik anlamı ve eski iz korunur; lock dosyası teknik uygulamadır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "Y8",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-Y8"
+    ],
+    "system_primary_law": "L03",
+    "system_related_laws": [
+      "L03",
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Düzey metin tonundan ayrılabilir; düzey tek başına bağlayıcılık değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "Y9",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-Y9"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Mahremiyet ilkesi yayın ve overlay düzenine uygulanır; anonimleştirme tek başına yeterli değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "Y10",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-Y10"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07",
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Denetimin fiilî olması ortak; her işe otomasyon zorunluluğu orantısız olabilir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "Y11",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-Y11"
+    ],
+    "system_primary_law": "L03",
+    "system_related_laws": [
+      "L03"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Üç kural/iki proje eşiği içerik kapsamının kanıtı değildir; C4 iki maddelidir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "Y12",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-Y12"
+    ],
+    "system_primary_law": "L06",
+    "system_related_laws": [
+      "L06",
+      "L04"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Gözden geçirme ortak; hiç tetiklenmeme gereksizliğin kanıtı değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "Y13",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-Y13"
+    ],
+    "system_primary_law": "L08",
+    "system_related_laws": [
+      "L08",
+      "L04"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Türevlerin yeniden kurulması ortak; açıklama ve yaratıcı yazı kendi kaynağı olabilir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "Y14",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-Y14"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07",
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Kurallara kendi doğrulama disiplinini uygulamak ortak amacı güçlendirir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "Y15",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-Y15"
+    ],
+    "system_primary_law": "L01",
+    "system_related_laws": [
+      "L01",
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Vaka ve kaynak izi ortak; vaka bağlayıcı kural değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "P1",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-P1"
+    ],
+    "system_primary_law": "L04",
+    "system_related_laws": [
+      "L04"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Üç sorumluluk aynı; P1 kod ve fiziksel çıktı ister, R047 kod dışı kararları da kapsar.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "P2",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-P2"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07",
+      "L04"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Vekil/doğruluk ayrımı ortak; P2 operasyonel örnek listesi ve gözle kontrol ekler.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "P3",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-P3-a",
+      "C-P3-b"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05",
+      "L04"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Null ilkesi örtüşür; kod-belge farkı ayrı hükümdür; R013 geçersiz/gönderilmemiş alanı da ayırır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "P4",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-P4"
+    ],
+    "system_primary_law": "L02",
+    "system_related_laws": [
+      "L02",
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Düzenek varsayımını sınama deney ve gerçek sınır denetimini tamamlar.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A1.1",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "recommended",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A1.1"
+    ],
+    "system_primary_law": "L01",
+    "system_related_laws": [
+      "L01",
+      "L04",
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Yalnız kod/deneye hizmet eden belge şartı kavram ve yaratıcı işleri daraltır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A1.2",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A1.2"
+    ],
+    "system_primary_law": "L02",
+    "system_related_laws": [
+      "L02",
+      "L03"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Negatif sonucu yeni hatta başarı saymama ortak; tarihli dondurma ek yöntemdir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A1.3",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A1.3"
+    ],
+    "system_primary_law": "L01",
+    "system_related_laws": [
+      "L01"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Araştırma farkı ortak; tarihli literatür taraması daha somut koşuldur.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A2.1",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A2.1"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05",
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Kanonik kimlik anlamı ortak; enum ve şema tek tanımı ek mekanizmadır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A2.2",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A2.2"
+    ],
+    "system_primary_law": "L08",
+    "system_related_laws": [
+      "L08",
+      "L04"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Yeniden kurma ortak; makine türevlerinin build sırasında üretimi ek ayrıntıdır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A2.3",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A2.3"
+    ],
+    "system_primary_law": "L06",
+    "system_related_laws": [
+      "L06"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Yeni sürümde eski kararları uzlaştırma ortak; diff kaydı ek uygulamadır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A2.4",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "api"
+    ],
+    "integrated_ids": [
+      "C-A2.4"
+    ],
+    "system_primary_law": "L01",
+    "system_related_laws": [
+      "L01",
+      "L04",
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Kaynak okuma ve gerçek çağrı ilkeleri API fixture koşuluyla somutlaşır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A2.5",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A2.5"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07",
+      "L03"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Sonuç kapsamı ve ayrıştırmanın kapanışı ortak; tablo kombinasyon taraması ek tekniktir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A3.1",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A3.1"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Hatanın nedenini koruma ortak; AST ve regex politikası kod alanına özgüdür.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A3.2",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A3.2"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Sentez doğrulama türünü ayırır; py_compile yalnız Python için anlamlıdır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A3.3",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A3.3"
+    ],
+    "system_primary_law": "L06",
+    "system_related_laws": [
+      "L06",
+      "L04"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Türev ve fiilî yöntem uyumu ortak; aynı oturum süre şartı ek zorunluluktur.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A3.4",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A3.4"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05",
+      "L04"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Yokluk ayrımı ve fiilî mekanizma ortak; legacy geçişi ilave koşuldur.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A3.5",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A3.5"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Sözleşme/hata davranışı ortak; bilinmeyen alan ve kullanılmayan kayıt denetimi ekler.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A3.6",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A3.6-a",
+      "C-A3.6-b",
+      "C-A3.6-c"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05",
+      "L03",
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Exactness, kalıcı anahtar ve imza yetkisi üç farklı hata sınıfıdır; tek hüküm değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A3.7",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A3.7"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05",
+      "L04"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Kısmi hata ve çalışan çekirdek ortak; güvenli varsayılan koşulu ekler.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A3.8",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A3.8"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05",
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Aynı null anlamı taşınır; her serileştirme sınırının kontrolü daha somuttur.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A4.1",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A4.1"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Gerçek uç sınır testi ortak; her küçük değişiklikte aynı tören gerekmez.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A4.2",
+    "source_version": "2.0.0-draft",
+    "source_status": "DRAFT",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A4.2"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "88'de mutation bytecode izolasyonu yok; P2 türü üst ilke bu ayrıntıyı kapsamaz.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A4.3",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A4.3"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Gerçek sınır denetimi fixture önkoşul assertionıyla somutlaşır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A4.4",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A4.4"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Yan etkiler ortak; değişiklik yönü regresyon kapsamını belirginleştirir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A4.5",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A4.5"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07",
+      "L04"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Neden düzeltme ve fiilî yöntem ortak; birbirini örten kusur teşhisi ekler.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A4.6",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A4.6"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05",
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Sürümlü yeniden hesaplama ve sınır denetimi ortak; field-by-field uygulama ekler.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A4.7",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "api"
+    ],
+    "integrated_ids": [
+      "C-A4.7"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05",
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Kanonik içerik ve tüketici sınırı ortak; raw byte imzası API sözleşmesidir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A4.8",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "frontend"
+    ],
+    "integrated_ids": [
+      "C-A4.8"
+    ],
+    "system_primary_law": "L08",
+    "system_related_laws": [
+      "L08",
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Gerçek UI davranışı ortak; global CSS tanımının etkisini bileşenlerde denetler.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A5.1",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A5.1"
+    ],
+    "system_primary_law": "L02",
+    "system_related_laws": [
+      "L02"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Ön kayıt aynı amaçtır; her benchmark yerine doğrulayıcı iddia kapsamı gerekir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A5.2",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A5.2"
+    ],
+    "system_primary_law": "L02",
+    "system_related_laws": [
+      "L02"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Uçuşta protokol değişimini gizlememe ortak; düzeltme her başarısızlığın tek yanıtı değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A5.3",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A5.3"
+    ],
+    "system_primary_law": "L02",
+    "system_related_laws": [
+      "L02",
+      "L06"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Tarihî protokol korunur; tüm hücrelerin önceden yorumu ek ayrıntıdır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A5.4",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A5.4"
+    ],
+    "system_primary_law": "L02",
+    "system_related_laws": [
+      "L02"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Ön kayıt ve veri ayrımı ortak; power/N her yönteme aynı biçimde uygulanmaz.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A5.5",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A5.5"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07",
+      "L06"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Belirsizlik ve bayat ölçüm denetimi ortak; iki tekrar ve σ evrensel yeterlilik değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A5.6",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A5.6"
+    ],
+    "system_primary_law": "L02",
+    "system_related_laws": [
+      "L02"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Yanlışlayıcı sınama negatif sonuç disipliniyle uyumlu; çürütülme oranı kalite hedefi değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A5.7",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A5.7"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07",
+      "L02"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Geçersiz ölçümü negatif bilimsel sonuçtan ayırmak sentezi somutlaştırır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A5.8",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "ml",
+      "research"
+    ],
+    "integrated_ids": [
+      "C-A5.8"
+    ],
+    "system_primary_law": "L02",
+    "system_related_laws": [
+      "L02",
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Kontrol ve metrik anlamı ortak; positive controlün fiilen özelliği göstermesi ek kontrolüdür.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A5.9",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A5.9"
+    ],
+    "system_primary_law": "L02",
+    "system_related_laws": [
+      "L02"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Güçlü/basit kontrol ortak; üç adlandırılmış kol ve kör tasarım evrensel şart değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A5.10",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "ml",
+      "research"
+    ],
+    "integrated_ids": [
+      "C-A5.10"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07",
+      "L03"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Word-boundary EM tam cevap eşitliğini garanti etmez; kısa gold yasağı hedef evreni değiştirir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A5.11",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A5.11"
+    ],
+    "system_primary_law": "L02",
+    "system_related_laws": [
+      "L02",
+      "L06"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Yeni veri dünyasında geçerlilik denetimi ortak; permütasyon tek yöntem değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A5.12",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A5.12-a",
+      "C-A5.12-b"
+    ],
+    "system_primary_law": "L02",
+    "system_related_laws": [
+      "L02",
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Seçim/eval ayrımı ortak; N≥10 ve z evrensel yöntem değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A5.13",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "ml",
+      "research"
+    ],
+    "integrated_ids": [
+      "C-A5.13"
+    ],
+    "system_primary_law": "L02",
+    "system_related_laws": [
+      "L02"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Adil ayarlama doğrudan ortak; aynı bütçenin uygulanmış izi gerekir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A5.14",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "recommended",
+    "source_scope": [
+      "ml",
+      "research"
+    ],
+    "integrated_ids": [
+      "C-A5.14"
+    ],
+    "system_primary_law": "L02",
+    "system_related_laws": [
+      "L02",
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Basit çözümle kıyas ortak; >90% olunca görevi zorlaştırma ürün hedefiyle uyuşmayabilir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A5.15",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A5.15"
+    ],
+    "system_primary_law": "L04",
+    "system_related_laws": [
+      "L04",
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Fiilî yöntem ortak; kullanım izi sıfır etki yorumunu denetler.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A5.16",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A5.16"
+    ],
+    "system_primary_law": "L02",
+    "system_related_laws": [
+      "L02"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Kontrolsüz çoklu değişikliği önleme ortak; exactly one planlı etkileşim deneyini de yasaklar.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A5.17",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A5.17"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07",
+      "L03"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Anlamlı kapı ortak; sabit geçen güvenlik/bütünlük kapısı değersiz değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A5.18",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A5.18"
+    ],
+    "system_primary_law": "L02",
+    "system_related_laws": [
+      "L02",
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Mekanizma katkısı ve mahremiyet ortak; okuma kanalını kesme ve güçlü okuyucu denetimi ekler.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A5.19",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "ml",
+      "research"
+    ],
+    "integrated_ids": [
+      "C-A5.19"
+    ],
+    "system_primary_law": "L02",
+    "system_related_laws": [
+      "L02",
+      "L07",
+      "L03"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Görev kapsamı/veri ayrımı ortak; unseen/same-domain çifti okuma iddiasına özgüdür.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A5.20",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "ml",
+      "research"
+    ],
+    "integrated_ids": [
+      "C-A5.20"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07",
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Vekil ve gerçek iş değeri ayrımı ortak; target metric transferi ML uygulamasıdır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A5.21",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A5.21"
+    ],
+    "system_primary_law": "L02",
+    "system_related_laws": [
+      "L02",
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Sentez kendi dünya koşullarındaki bulguyu korur; her sentetik bulguya gerçek veri şartı fazla geniştir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A5.22",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A5.22"
+    ],
+    "system_primary_law": "L02",
+    "system_related_laws": [
+      "L02",
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Önceden payda belirleme ortak; bütün oranlarda kapsam dışını tutmak koşullu oranı bozar.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A5.23",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A5.23"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07",
+      "L03"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Kanıta göre faz geçişi ortak; 30 küme evrensel çıkarım eşiği değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A5.24",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "ml"
+    ],
+    "integrated_ids": [
+      "C-A5.24"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Güven dayanakları ortak; eşikte calibration ölçümü ek uygulamadır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A5.25",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A5.25"
+    ],
+    "system_primary_law": "L04",
+    "system_related_laws": [
+      "L04",
+      "L02"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "İşleyen mekanizma ve katkı ortak; varlık ile yarar ayrı kavramdır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A5.26",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "data",
+      "ml"
+    ],
+    "integrated_ids": [
+      "C-A5.26"
+    ],
+    "system_primary_law": "L04",
+    "system_related_laws": [
+      "L04",
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Dar gerçek akış ortak; toplu veri dönüşümünde küçük gerçek sample özel kontroldür.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A5.27",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "data"
+    ],
+    "integrated_ids": [
+      "C-A5.27"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05",
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Sözleşme ve sınır ortak; el yapımı listelerin aynı doğrulaması somutlaştırır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A5.28",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A5.28"
+    ],
+    "system_primary_law": "L02",
+    "system_related_laws": [
+      "L02",
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Varsayımlar ve ön kayıt ortak; 16 sorunun sabit teknik reçeteleri düzeltilmelidir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A6.1",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "ops"
+    ],
+    "integrated_ids": [
+      "C-A6.1"
+    ],
+    "system_primary_law": "L08",
+    "system_related_laws": [
+      "L08",
+      "L03",
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Maliyet/yetki/geri alma ortak; çalışan işin kesilmesi özel ops kararıdır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A6.2",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "ops",
+      "agents"
+    ],
+    "integrated_ids": [
+      "C-A6.2"
+    ],
+    "system_primary_law": "L03",
+    "system_related_laws": [
+      "L03",
+      "L06",
+      "L04"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Teşhis ve güncel yetki ortak; macOS pgrep ayrıntısı yereldir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A6.3",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "ops"
+    ],
+    "integrated_ids": [
+      "C-A6.3"
+    ],
+    "system_primary_law": "L04",
+    "system_related_laws": [
+      "L04",
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Gerçek tamamlanma ortak; step>0 ve .done her iş türüne uygun değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A6.4",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "ops",
+      "api"
+    ],
+    "integrated_ids": [
+      "C-A6.4"
+    ],
+    "system_primary_law": "L04",
+    "system_related_laws": [
+      "L04",
+      "L07",
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Gerçek çağrı ve kısmi hata ortak; liveness/readiness ayrı tepkiler ister.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A6.5",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "ops"
+    ],
+    "integrated_ids": [
+      "C-A6.5"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Mahremiyet yaşam döngüsü sızmış credential rotasyonuyla tamamlanır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A6.6",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "ops"
+    ],
+    "integrated_ids": [
+      "C-A6.6"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "88'de shell launch ve stdout buffering sözleşmesi yok; tamamlanma üst ilkesi ayrıntı değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A6.7",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "ops"
+    ],
+    "integrated_ids": [
+      "C-A6.7"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "88'de container tag/digest kuralı yok; yeniden üretilebilirlik tematik dayanak olabilir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A6.8",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "ops",
+      "ml"
+    ],
+    "integrated_ids": [
+      "C-A6.8"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "88'de pip ve kurulum sırası hükmü yok; belirli sürüm çifti yerel gözlemdir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A6.9",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "ops"
+    ],
+    "integrated_ids": [
+      "C-A6.9"
+    ],
+    "system_primary_law": "L04",
+    "system_related_laws": [
+      "L04",
+      "L05",
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Gerçek durum ve kısmi hata ortak; reaper/timeout somut operasyon denetimidir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A7.1",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A7.1"
+    ],
+    "system_primary_law": "L04",
+    "system_related_laws": [
+      "L04",
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Gerçek yetenek ve yayın doğruluğu ortak; fiyat katmanı ayrımını gerçek trace sınar.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A7.2",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general",
+      "frontend"
+    ],
+    "integrated_ids": [
+      "C-A7.2"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05",
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Mahremiyet ve doğru yayın ortak; demo/örnek taraması özel uygulamadır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A8.1",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A8.1"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05",
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Eksik sonucu uydurmama aynı amaçtır; scorecard zaman izi ekler.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A8.2",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general",
+      "research"
+    ],
+    "integrated_ids": [
+      "C-A8.2"
+    ],
+    "system_primary_law": "L02",
+    "system_related_laws": [
+      "L02",
+      "L05",
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Yalnız PASS/FAIL sözleşmesi VOID ve ölçülmemiş değeri taşıyamaz.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A8.3",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A8.3"
+    ],
+    "system_primary_law": "L08",
+    "system_related_laws": [
+      "L08",
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Toplam maliyet ve neden çözümü ortak; kayıp/kalıcı düzeltme incident kaydı ekler.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A8.4",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general",
+      "research"
+    ],
+    "integrated_ids": [
+      "C-A8.4"
+    ],
+    "system_primary_law": "L02",
+    "system_related_laws": [
+      "L02",
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Kanıtı aşmayan dil ortak; ölçüm matematiksel ispatın yerine geçmez.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A8.5",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general"
+    ],
+    "integrated_ids": [
+      "C-A8.5"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Doğrulama kapsamı ortak; dört etiket doğrusal üstünlük sırası değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A8.6",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "recommended",
+    "source_scope": [
+      "general",
+      "research"
+    ],
+    "integrated_ids": [
+      "C-A8.6"
+    ],
+    "system_primary_law": "L02",
+    "system_related_laws": [
+      "L02",
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Ölçüm ve yorum ayrı; sütun etiketi somut sunum uygulamasıdır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A9.1",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general",
+      "research"
+    ],
+    "integrated_ids": [
+      "C-A9.1"
+    ],
+    "system_primary_law": "L06",
+    "system_related_laws": [
+      "L06"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Geri çekme yayılımı ortak; mühürleri yerinde güncellemek tarih korumasıyla çatışır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A9.2",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "research",
+      "data"
+    ],
+    "integrated_ids": [
+      "C-A9.2"
+    ],
+    "system_primary_law": "L06",
+    "system_related_laws": [
+      "L06"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "88'de fixed-path git-ignore ve results JSON konumu hükmü yok; tarih koruması üst amaçtır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A9.3",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "data",
+      "ops"
+    ],
+    "integrated_ids": [
+      "C-A9.3"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Geri dönüş ve mahremiyet ortak; zorunlu remote yedek her veri sınıfı için uygun olmayabilir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A9.4",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "ops"
+    ],
+    "integrated_ids": [
+      "C-A9.4"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "88'de iCloud/dataless/gitdir kontrolü yok; ortama özgü operasyondur.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "A9.5",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "general",
+      "research"
+    ],
+    "integrated_ids": [
+      "C-A9.5"
+    ],
+    "system_primary_law": "L06",
+    "system_related_laws": [
+      "L06",
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Tarih ve düzeltme izi ortak; never delete gerçek silme gereksinimini temsil etmez.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "B1.1",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "research"
+    ],
+    "integrated_ids": [
+      "C-B1.1"
+    ],
+    "system_primary_law": "L02",
+    "system_related_laws": [
+      "L02",
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Tek merdiven tekrar/kontrol/bağımsızlık/ortamı eşitler; real-world→law kanıtı aşar.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "B1.2",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "research"
+    ],
+    "integrated_ids": [
+      "C-B1.2"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07",
+      "L06"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Yeni kanıt ve yayılım ortak; en zayıf dayanak kuralı alternatif destekleri ayırmaz.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "B1.3",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "research"
+    ],
+    "integrated_ids": [
+      "C-B1.3"
+    ],
+    "system_primary_law": "L08",
+    "system_related_laws": [
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Kimlik ve kaynak izi ortak; findings registry somut bilgi yönetimidir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "B2.1",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "data",
+      "ml"
+    ],
+    "integrated_ids": [
+      "C-B2.1"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05",
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Sürümlü yeniden kurma ortak; veri artefaktı manifest alanları ilave sözleşmedir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "B2.2",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "data",
+      "ml"
+    ],
+    "integrated_ids": [
+      "C-B2.2"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07",
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Geri okuma ve kısmi hata ortak; warning+skip tek başına geçerli resume değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "B2.3",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "data"
+    ],
+    "integrated_ids": [
+      "C-B2.3"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Sürümlü anlam ve geri alma ortak; dönüşüm yeni veri yolu ekler.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "B2.4",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "data",
+      "ml"
+    ],
+    "integrated_ids": [
+      "C-B2.4"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05",
+      "L02"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Aynı anlam ve adil kıyas ortak; tokenizer/vocab/mask hashleri ML sözleşmesidir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "B2.5",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "data",
+      "research"
+    ],
+    "integrated_ids": [
+      "C-B2.5"
+    ],
+    "system_primary_law": "L02",
+    "system_related_laws": [
+      "L02",
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Split ve protokol ortak; eval set ID/health raporu ekler.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "B2.6",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "data",
+      "research"
+    ],
+    "integrated_ids": [
+      "C-B2.6"
+    ],
+    "system_primary_law": "L04",
+    "system_related_laws": [
+      "L04",
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Fiilî yöntem ve kapsam ortak; sonuç manifestindeki altı alan somut ML uygulamasıdır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "B3.1",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "agents"
+    ],
+    "integrated_ids": [
+      "C-B3.1"
+    ],
+    "system_primary_law": "L06",
+    "system_related_laws": [
+      "L06",
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Devam ve kural öğrenimi ortak; her oturum tam metin okuma yükü orantılı seçilmeli.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "B3.2",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "agents",
+      "general"
+    ],
+    "integrated_ids": [
+      "C-B3.2"
+    ],
+    "system_primary_law": "L01",
+    "system_related_laws": [
+      "L01",
+      "L04",
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Amaç/kabul ve hafiflik ortak; ayrı kart küçük işte şart değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "B3.3",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "agents"
+    ],
+    "integrated_ids": [
+      "C-B3.3"
+    ],
+    "system_primary_law": "L03",
+    "system_related_laws": [
+      "L03",
+      "L06"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Etkiye göre yetki ortak; her canon/local draft değişimine yeni onay mevcut görevi kesebilir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "B3.4",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "agents",
+      "ops"
+    ],
+    "integrated_ids": [
+      "C-B3.4"
+    ],
+    "system_primary_law": "L03",
+    "system_related_laws": [
+      "L03",
+      "L06"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "İkinci sinyal OR approval gerekli yetkinin yerine teşhisi geçirir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "B3.5",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "agents"
+    ],
+    "integrated_ids": [
+      "C-B3.5"
+    ],
+    "system_primary_law": "L02",
+    "system_related_laws": [
+      "L02",
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "İddia/kapsam/doğrulama ortak; evidence path ve unknowns teslimi somutlaştırır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "B3.6",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "agents",
+      "research"
+    ],
+    "integrated_ids": [
+      "C-B3.6"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07",
+      "L04"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Bağımsızlık ve sorumluluk ortak; her rapora ayrı verifier evrensel yükü değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "B3.7",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "agents",
+      "research"
+    ],
+    "integrated_ids": [
+      "C-B3.7"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07",
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Kökene göre bağımsızlık ortak; spec-only implementasyon yeni sözleşme sınamasıdır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "B3.8",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "agents"
+    ],
+    "integrated_ids": [
+      "C-B3.8"
+    ],
+    "system_primary_law": "L03",
+    "system_related_laws": [
+      "L03",
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Belirsizliğin kaydı ve yetki ortak; kapsam içi reversible draft için durmak gereksizdir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "B3.9",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "agents"
+    ],
+    "integrated_ids": [
+      "C-B3.9"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07",
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Neden/regresyon ortak; her fixed için üç test şartı düşük etkide fazla yük olabilir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "B3.10",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "agents",
+      "ops"
+    ],
+    "integrated_ids": [
+      "C-B3.10"
+    ],
+    "system_primary_law": "L06",
+    "system_related_laws": [
+      "L06",
+      "L07",
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Devam envanteri ve açık işler ortak; paid resource/backup handoff alanları somutlaştırır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "C1.1",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "ml"
+    ],
+    "integrated_ids": [
+      "C-C1.1"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Üretim ve doğrulama ayrımı ortak; checkpoint upload iki gerçek sınırdır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "C1.2",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "ml"
+    ],
+    "integrated_ids": [
+      "C-C1.2"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05",
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Toparlanma ve gerçek sınır ortak; atomik checkpoint tek filesystem kapsamıdır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "C1.3",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "ml",
+      "ops"
+    ],
+    "integrated_ids": [
+      "C-C1.3"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "88'de /workspace network-FS ve tek writer hükmü yok; ortam kapasitesi yereldir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "C1.4",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "ml"
+    ],
+    "integrated_ids": [
+      "C-C1.4"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07",
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Kısmi hata ortak; kritik checkpointi genel skip yapmak güvenceyi bozar.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "C1.5",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "ml"
+    ],
+    "integrated_ids": [
+      "C-C1.5"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "88'de device seçim önceliği yok; env>cuda>mps>cpu yerel politika olabilir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "C1.7",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "ml",
+      "ops"
+    ],
+    "integrated_ids": [
+      "C-C1.7"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "88'de env dosyası kabul ölçütü yok; eşit satır sayısı doğru anahtar kanıtı değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "C1.9",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "ml"
+    ],
+    "integrated_ids": [
+      "C-C1.9-a",
+      "C-C1.9-b"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "88'de glob ayrıştırma/prefix hükmü yok; iki bağımsız girdi hatasıdır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "C1.10",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "ml",
+      "ops"
+    ],
+    "integrated_ids": [
+      "C-C1.10"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "88'de tar/network ownership hükmü yok; yerel GNU tar davranışına bağlıdır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "C1.12",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "ml",
+      "ops"
+    ],
+    "integrated_ids": [
+      "C-C1.12"
+    ],
+    "system_primary_law": "L08",
+    "system_related_laws": [
+      "L08",
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Kaynağı ayırt edici işe ayırma ortak; sırf GPU boş diye yeni iş üretmek yanlış teşvik olabilir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "C1.14",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "ml",
+      "ops"
+    ],
+    "integrated_ids": [
+      "C-C1.14"
+    ],
+    "system_primary_law": "L04",
+    "system_related_laws": [
+      "L04",
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Faaliyet tamamlanma değildir; watt eşiği cihazdan bağımsız ölüm ölçüsü olamaz.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "C1.15",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "ml",
+      "ops"
+    ],
+    "integrated_ids": [
+      "C-C1.15"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "88'de R2 arm/out eşlemesi yok; count eşitliği yanlış hedefi kaçırır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "C1.16",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "ml",
+      "ops"
+    ],
+    "integrated_ids": [
+      "C-C1.16"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "88'de paylaşılan token cache/network sync politikası yok; zamanlama neden kanıtı değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "C1.21",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "ml"
+    ],
+    "integrated_ids": [
+      "C-C1.21"
+    ],
+    "system_primary_law": "L04",
+    "system_related_laws": [
+      "L04",
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Fiilî loss/öğrenme ayrımı ortak; label hizalama model sözleşmesine bağlıdır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "C1.22",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "ml"
+    ],
+    "integrated_ids": [
+      "C-C1.22"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07",
+      "L06"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Düzenek ve gerçek çıktı ortak; CPU fp32 ve empty_cache yasağı yerel reçetedir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "C1.23",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "ml",
+      "ops"
+    ],
+    "integrated_ids": [
+      "C-C1.23"
+    ],
+    "system_primary_law": "L08",
+    "system_related_laws": [
+      "L08",
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Toplam maliyet ve geri alma ortak; disk retention eğitim alanına özgüdür.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "C1.24",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "ml",
+      "ops"
+    ],
+    "integrated_ids": [
+      "C-C1.24"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07",
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Teslim/geri okuma ortak; line count bütünlük için yetersizdir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "C1.25",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "ml",
+      "ops"
+    ],
+    "integrated_ids": [
+      "C-C1.25"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05",
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Kimlik ve geri okuma ortak; checkpoint manifest alanları ML uygulamasıdır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "C1.26",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "ml"
+    ],
+    "integrated_ids": [
+      "C-C1.26"
+    ],
+    "system_primary_law": "L02",
+    "system_related_laws": [
+      "L02",
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Adil kıyas ortak; intersection hit@k her hedefte tam kapsam ölçüsü değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "C1.27",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "ml"
+    ],
+    "integrated_ids": [
+      "C-C1.27"
+    ],
+    "system_primary_law": "L02",
+    "system_related_laws": [
+      "L02",
+      "L07",
+      "L04"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Eval koşulu ve label anlamı ortak; abstention için tek yaklaşım evrensel değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "C1.28",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "ml"
+    ],
+    "integrated_ids": [
+      "C-C1.28"
+    ],
+    "system_primary_law": "L02",
+    "system_related_laws": [
+      "L02",
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Genelleme ve seçim ayrımı ortak; templated sentetik yalnız schema öğretir ifadesi hipotezdir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "C1.29",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "ml"
+    ],
+    "integrated_ids": [
+      "C-C1.29"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "88'de aynı MPS makinesinde ikinci heavy job yasağı yok; cihaz/proje politikasına özgüdür.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "C2.1",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "data"
+    ],
+    "integrated_ids": [
+      "C-C2.1"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "88'de Türkçe named entity leak kanalları hükmü yok; corpus sterility alanına özgüdür.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "C2.2",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "data"
+    ],
+    "integrated_ids": [
+      "C-C2.2"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "88'de substring/whole-token sterility kapısı yok; EMden ayrı görevdir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "C2.4",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "data"
+    ],
+    "integrated_ids": [
+      "C-C2.4"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07",
+      "L03"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Dar test bütün ölçeği kanıtlamaz; ilgili robustness kontrolleri alan koşuluyla uygulanır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "C3.1",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "api",
+      "ops"
+    ],
+    "integrated_ids": [
+      "C-C3.1"
+    ],
+    "system_primary_law": "L06",
+    "system_related_laws": [
+      "L06",
+      "L07",
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Güncel eylem ve tamamlanma ortak; dashboard/probe belirli sağlayıcı yöntemidir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "C3.2",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "recommended",
+    "source_scope": [
+      "api",
+      "ops"
+    ],
+    "integrated_ids": [
+      "C-C3.2"
+    ],
+    "system_primary_law": "L08",
+    "system_related_laws": [
+      "L08",
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Ekonomik seçim ortak; canonical+no serverless koşulu bütün hizmetleri kapsamaz.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "C3.3",
+    "source_version": "2.0.0-draft",
+    "source_status": "IN FORCE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "api"
+    ],
+    "integrated_ids": [
+      "C-C3.3-a",
+      "C-C3.3-b"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05",
+      "L04"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "API sözleşmesi ortak; User-Agent ve answer/reasoning alanları ayrı konulardır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "C3.4",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "api"
+    ],
+    "integrated_ids": [
+      "C-C3.4"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05",
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Eksik/sıfır ve doğru ekonomik ölçüm ortak; billing tokenizer sağlayıcı sözleşmesine bağlıdır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "C4.1",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "frontend"
+    ],
+    "integrated_ids": [
+      "C-C4.1"
+    ],
+    "system_primary_law": "L08",
+    "system_related_laws": [
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Klavye/renk dışı işaret ortak; tema×mod kontrast matrisi ek denetimdir, logo dosya niteliği değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "uploaded-2.0.0-draft",
+    "source_id": "C4.2",
+    "source_version": "2.0.0-draft",
+    "source_status": "CANDIDATE",
+    "source_level": "mandatory",
+    "source_scope": [
+      "frontend"
+    ],
+    "integrated_ids": [
+      "C-C4.2"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "88'de innerHTML/text/sanitizer hükmü yok; estetik tercih değil frontend güvenliğidir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R001",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Yeni kavram ve kimlik çalışmaları",
+    "integrated_ids": [
+      "I001"
+    ],
+    "system_primary_law": "L01",
+    "system_related_laws": [
+      "L01"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Anlam/felsefe ile somut kavram üretimini birlikte tutar; görev kartı veya yalnız kod belgesi aynı yaratıcı hüküm değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R002",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Yeni sistem fikirleri ve mimari değerlendirme",
+    "integrated_ids": [
+      "I002"
+    ],
+    "system_primary_law": "L04",
+    "system_related_laws": [
+      "L04"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Mekanizmayı standart adlara indirmeme açık tercihi korunur. A5.25 katkı/sızıntı kanıtı ekler; bileşenin varlığı ile zorunlu yararı ayrılır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R003",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Ürün konumlandırması ve kapsam kararları",
+    "integrated_ids": [
+      "I003"
+    ],
+    "system_primary_law": "L01",
+    "system_related_laws": [
+      "L01"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Ana iş–stratejik yan fayda–kanal ayrımı 142 listede bağımsız hüküm değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R004",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Proje devamlılığı ve terminoloji",
+    "integrated_ids": [
+      "I004"
+    ],
+    "system_primary_law": "L06",
+    "system_related_laws": [
+      "L06"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Terminoloji sürekliliği sürüm revizyonuyla kısmen örtüşür; yerel proje adlarını aynen koru.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R005",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Karar kaydı ve kullanıcı adına yapılan genellemeler",
+    "integrated_ids": [
+      "I005"
+    ],
+    "system_primary_law": "L03",
+    "system_related_laws": [
+      "L03"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Köken/öneri/benimsenme ayrımı Y5/Y8in yönetim hesabına dayanak olur; B3.8 belirsizlik/yetki alt uygulamasıdır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R006",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Projeler arasında deneyim aktarımı",
+    "integrated_ids": [
+      "I006"
+    ],
+    "system_primary_law": "L03",
+    "system_related_laws": [
+      "L03"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Yerel tercihleri evrenselleştirmeme Y1/Y4/Y11deki katman/kabul politikasını sınırlar; alan başlığı sayısı kapsam kanıtı değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R007",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Tasarım seçenekleri ve çözüm önerileri",
+    "integrated_ids": [
+      "I007"
+    ],
+    "system_primary_law": "L03",
+    "system_related_laws": [
+      "L03"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Karar farkı taşıyan tasarım alternatifleri deney kollarıyla aynı şey değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R008",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "İterasyon ve devam talepleri",
+    "integrated_ids": [
+      "I008"
+    ],
+    "system_primary_law": "L06",
+    "system_related_laws": [
+      "L06"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Revizyon sınırı ve kabul edilmiş yönü koruma 142 listede doğrudan ele alınmaz.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R009",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Araştırma metni ve teknik iddialar",
+    "integrated_ids": [
+      "I009"
+    ],
+    "system_primary_law": "L02",
+    "system_related_laws": [
+      "L02"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Tanım/hipotez/koşullu önerme/ölçüm/vizyon türleri korunur; B1.1in gerçek ortamı law yapan merdiveni bununla çatışır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R010",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Sonuçların yorumlanması ve yeniden kullanımı",
+    "integrated_ids": [
+      "I010"
+    ],
+    "system_primary_law": "L02",
+    "system_related_laws": [
+      "L02"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Veri/varsayım/zaman sınırı null aktarımı ve sentetik genellemeyi koşullandırır; sentetik dünyadaki dar sonuç silinmez.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R011",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Araştırma taraması ve belge birleştirme",
+    "integrated_ids": [
+      "I011"
+    ],
+    "system_primary_law": "L01",
+    "system_related_laws": [
+      "L01"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "İlgili kaynak metni okuma, API hafıza fixtureı, vaka dayanağı ve tarihli yenilik taramasını tamamlar; yalnız envanter doğrulama değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R012",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Kanıt sistemleri ve güven göstergeleri",
+    "integrated_ids": [
+      "I012"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Kimlik/bütünlük/köken kontrolleri dış gerçekliğin kanıtı değildir; P2 proxy tablosu bu ayrımı örneklendirir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R013",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Veri modelleri arayüzler ve ölçümler",
+    "integrated_ids": [
+      "I013"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "P3/A3.8 null davranışıyla güçlü örtüşme vardır; absent/default ve invalid/error ayrımı ayrıca korunur. Scorecard ve billing de bu ayrımı taşımalıdır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R014",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Bilgi birleştirme ve nesne eşleme",
+    "integrated_ids": [
+      "I014"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Nesne özdeşliğini semantik benzerlikten ayırma kuralı 142 teknik kimlik kilidinden farklıdır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R015",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Kaynak karşılaştırması ve sonuç etiketleme",
+    "integrated_ids": [
+      "I015"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Sessizlik/çelişki ayrımı karar tablosu eksikliğinden farklıdır; KLMde ayrı yöntem gerektirir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R016",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Formüller sürümler ve yeniden üretilebilirlik",
+    "integrated_ids": [
+      "I016"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Aynı formül ID aynı hesap olmalıdır; Y7 teknik ID kilidi, A3.6 kalıcı hash ve B2 manifestleri farklı uygulamalardır. K34 unknown formülde fallbacki dışlar.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R017",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Skorlar karar desteği ve belirsizlik",
+    "integrated_ids": [
+      "I017"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Güven skorunun girdileri ve yöntemi saklanır; A5.24 calibration şartı daha dar model eşiği denetimidir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R018",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "İddia düzeltmeleri ve karar değişiklikleri",
+    "integrated_ids": [
+      "I018"
+    ],
+    "system_primary_law": "L06",
+    "system_related_laws": [
+      "L06"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Tarihî kayıt korunarak güncel türevler düzeltilir; A9.1deki mühür dahil aynı oturum değişikliği bu sınırla koşullandırılır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R019",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Yeni model ve yöntem araştırmaları",
+    "integrated_ids": [
+      "I019"
+    ],
+    "system_primary_law": "L01",
+    "system_related_laws": [
+      "L01"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Araştırma farkını güçlü alternatiflerle tanımlama A1.3 tarihli taramasıyla tamamlanır; kaynağın sessizliği yokluk iddiası olmaz.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R020",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Temsil ve matematiksel temel tasarımı",
+    "integrated_ids": [
+      "I020"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Dar formalizm ve matematik temel genişletmesinin yükü 142 listede bağımsız hüküm değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R021",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Doğrulayıcı deneylerin planlanması",
+    "integrated_ids": [
+      "I021"
+    ],
+    "system_primary_law": "L02",
+    "system_related_laws": [
+      "L02"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Sonuç öncesi hipotez/metrik/bütçe/karar kaydı A5.1–4 mühürleriyle kısmen aynıdır; sabit deney paketindeki her alan her metoda evrensel değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R022",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Yeni bileşenlerin katkısını değerlendirme",
+    "integrated_ids": [
+      "I022"
+    ],
+    "system_primary_law": "L02",
+    "system_related_laws": [
+      "L02"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Basit/güçlü/öğrenmesiz kontrol ve katkı ayrımı korunur; üç isimli kol, sabit doyum yüzdesi ve her yerde kademeli kol ek koşulları daraltılır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R023",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Nedensel katkı iddiası taşıyan deneyler",
+    "integrated_ids": [
+      "I023"
+    ],
+    "system_primary_law": "L02",
+    "system_related_laws": [
+      "L02"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Bilgi/bütçe/motor eşitliği ortak nedensel çekirdektir; A5.16 exactly one şartı kontrollü faktöriyel tasarıma izin verecek öneriyle düzeltilir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R024",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Veri üretimi ve deney değerlendirmesi",
+    "integrated_ids": [
+      "I024"
+    ],
+    "system_primary_law": "L02",
+    "system_related_laws": [
+      "L02"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Keşif/seçim/eval ve veri atası ayrımı A5.12nin bir alt hükmüdür; eval set freeze ve şablon dışı genelleme kontrolleri bunu somutlaştırır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R025",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Verimlilik değerlendirmesi",
+    "integrated_ids": [
+      "I025"
+    ],
+    "system_primary_law": "L08",
+    "system_related_laws": [
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Ön hazırlık/eğitim/arama/bakım dahil toplam maliyet, incident kaybı, endpoint seçimi ve GPU migrasyonuna uygulanır; sırf GPU boş diye faydasız iş üretilmez.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R026",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Araştırma sonuçlarının raporlanması",
+    "integrated_ids": [
+      "I026"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Metrik tanımı/payda/kapsam/kanıt türü korunur; EM yanlış eşleşmesi ve tek merdiven bunu ihlal edebilir. Sayısal N/σ/z reçeteleri bu hükme eşdeğer değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R027",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Deney durumu yönetimi",
+    "integrated_ids": [
+      "I027"
+    ],
+    "system_primary_law": "L02",
+    "system_related_laws": [
+      "L02"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Negatif/nötr/destekleyici bulgu ve açık tanısal hat ayrımı scorecardın VOID/NOT RUN/INDETERMINATE durumlarıyla tamamlanır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R028",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Araştırmadan geliştirmeye geçiş",
+    "integrated_ids": [
+      "I028"
+    ],
+    "system_primary_law": "L03",
+    "system_related_laws": [
+      "L03"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Araştırmanın sonraki fazı kontrol ve kanıtla açılır; tarihli dondurma, örneklem gerekçesi ve ölçek risk denetimleri bunun alan uygulamalarıdır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R029",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "ERM bilgi mimarisi",
+    "integrated_ids": [
+      "I029"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "ERM kayıt–yorum–temsil ayrımı kanonik docs ilkesine indirgenmez.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R030",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "İlişki modelleme",
+    "integrated_ids": [
+      "I030"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Kimlik/rol/arite hipotezi ERM mimarisine özgüdür; teknik ID kilidi aynı hüküm değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R031",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Kanıt birleştirme",
+    "integrated_ids": [
+      "I031"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Bağımsızlık köken/türeme ilişkisidir; yeni agent veya aynı prosedür farklı koşusu otomatik bağımsız bilimsel doğrulama olmaz.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R032",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Bilgi erişimi",
+    "integrated_ids": [
+      "I032"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Topolojik merkezîlik ile epistemik kabul ayrımı 142de bağımsız değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R033",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Bağlama bağlı yeniden kullanım",
+    "integrated_ids": [
+      "I033"
+    ],
+    "system_primary_law": "L06",
+    "system_related_laws": [
+      "L06"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Eski snapshotın yeni dünya/denetleyici sürümünde geçerliliği yeniden değerlendirilsin; A5.5 kararlılık ve A5.11 kalibrasyon aktarımı buna bağlıdır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R034",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Türev yapı tasarımı",
+    "integrated_ids": [
+      "I034"
+    ],
+    "system_primary_law": "L08",
+    "system_related_laws": [
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Kayıt ve dönüşüm sürümünden yeniden üretim korunur; Y13/A2.2deki teknik docs buildi bu hükmün alt uygulamasıdır, bütün yaratıcı metinleri kapsamaz.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R035",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Görev ayrıştırma",
+    "integrated_ids": [
+      "I035"
+    ],
+    "system_primary_law": "L03",
+    "system_related_laws": [
+      "L03"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Başlangıç hedefinin birim/domain/kapsam/kapanışı alt çözümlerde korunur; EM ve maskenin cevap birimi bu koşulu somutlaştırır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R036",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Kayıt yaşam döngüsü",
+    "integrated_ids": [
+      "I036"
+    ],
+    "system_primary_law": "L06",
+    "system_related_laws": [
+      "L06"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Zorunlu ve alternatif destek geri çekme etkileri ayrı kalır; B1.2 tek weakest link yaklaşımı alternatif yolları gereksiz düşürebilir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R037",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "ERP ve işletme anlayışı sistemleri",
+    "integrated_ids": [
+      "I037"
+    ],
+    "system_primary_law": "L01",
+    "system_related_laws": [
+      "L01"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "ERPnin fiilî aktör/istisna/iş bağımlılıkları veri manifestine indirgenmez.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R038",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Çok kanallı ürünler ve araştırma yayınları",
+    "integrated_ids": [
+      "I038"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Autorite iki uygulama/dağıtım ve ortak kayıt kararı tek uygulama zorunluluğu yapmaz.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R039",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Agent tabanlı ürünler ve insan iş birliği",
+    "integrated_ids": [
+      "I039"
+    ],
+    "system_primary_law": "L04",
+    "system_related_laws": [
+      "L04"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "İnsan iş yükünü gerçekten devretme agent çıktı doğrulamasından daha geniş ürün amacıdır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R040",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Ürün konumlandırması ve arayüz metni",
+    "integrated_ids": [
+      "I040"
+    ],
+    "system_primary_law": "L01",
+    "system_related_laws": [
+      "L01"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Kullanıcı işiyle anlatım teknik kanıt diliyle aynı hüküm değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R041",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Durum gösterimi kayıt ve dış etkiler",
+    "integrated_ids": [
+      "I041"
+    ],
+    "system_primary_law": "L04",
+    "system_related_laws": [
+      "L04"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Önizleme/kaydetme/karşı taraf onayı ayrımı async job terminal durumu ve gerçek tamamlanma kontrolleriyle tamamlanır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R042",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Ürün mimarisi ve entegrasyonlar",
+    "integrated_ids": [
+      "I042"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Sağlayıcıdan bağımsız çekirdek/adaptör ayrımı gerçek API fixture şartıyla aynı değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R043",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Adaptörler entegrasyonlar ve ürün kapsamı",
+    "integrated_ids": [
+      "I043"
+    ],
+    "system_primary_law": "L04",
+    "system_related_laws": [
+      "L04"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Gerekli servisin gerçek çağrısı API fixture, sağlık/readiness ve fiyat katmanı traceiyle örtüşür; endpoint varlığı yeterli değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R044",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Çok dilli ve çok görünümlü ürünler",
+    "integrated_ids": [
+      "I044"
+    ],
+    "system_primary_law": "L08",
+    "system_related_laws": [
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Çeviri statüsü ve alternatif erişim yolları 142de bağımsız kapsam taşımıyor.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R045",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Agent planlama ve araç seçimi",
+    "integrated_ids": [
+      "I045"
+    ],
+    "system_primary_law": "L03",
+    "system_related_laws": [
+      "L03"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Görev ön/son koşullarıyla işlevsel yeterlilik, agent onay sınıflarıyla aynı değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R046",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Dinamik agent sistemi araştırması",
+    "integrated_ids": [
+      "I046"
+    ],
+    "system_primary_law": "L04",
+    "system_related_laws": [
+      "L04"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Geçici görev bileşimi ve kalıcı yetenek birikimi 142 agent hükümlerinde doğrudan yoktur.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R047",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Yetki dağılımı ve tamamlanma iddiaları",
+    "integrated_ids": [
+      "I047"
+    ],
+    "system_primary_law": "L04",
+    "system_related_laws": [
+      "L04"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Karar/uygulama/doğrulama sorumlulukları P1le ortak; kod ve fiziksel çıktı şartı kod dışı kararlara aynen taşınmaz.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R048",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Agent yürütmesi ve dış sistem işlemleri",
+    "integrated_ids": [
+      "I048"
+    ],
+    "system_primary_law": "L03",
+    "system_related_laws": [
+      "L03"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Hedef/etki/mevcut yetki ayrımı korunur; B3.4ün second signal OR approval ifadesi bunu karıştırır ve öneride değiştirilir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R049",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Denetim değerlendirme ve öneri ürünleri",
+    "integrated_ids": [
+      "I049"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Ölçüm ile ticari eylem/çıkar ayrımı, denetleyici anahtar rolünden farklı ürün yönetişimidir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R050",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Duruma ve yetkiye bağlı eylemler",
+    "integrated_ids": [
+      "I050"
+    ],
+    "system_primary_law": "L06",
+    "system_related_laws": [
+      "L06"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Yürütme anındaki yetki/durum yeniden kontrol edilir; process liveness ve endpoint stop teşhisi yetkiyi kendiliğinden artırmaz.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R051",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Yeni yazılım ve araştırma uygulamaları",
+    "integrated_ids": [
+      "I051"
+    ],
+    "system_primary_law": "L04",
+    "system_related_laws": [
+      "L04"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Gerçek çalışan dar çekirdek, opsiyonel bileşen dayanıklılığı ve bulk smoke ile tamamlanır; görkemli iskelet başarı değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R052",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Hata çözümü ve kalite doğrulaması",
+    "integrated_ids": [
+      "I052"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Kök neden ve somut risk denetimi AST/syntax/main smoke/directional regression kontrollerini koşullandırır; basit metin düzeltmesine üç test töreni taşınmaz.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R053",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "API şema veri ve taşıma sınırları",
+    "integrated_ids": [
+      "I053"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Anlam/birim/hata/sürüm sözleşmesi API alan, tokenizer ve wire kontrollerinin üst koşuludur; strict schema kontrollü extension alanını yasaklamaz.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R054",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Entegrasyon kalıcılık ve veri dönüşümü testleri",
+    "integrated_ids": [
+      "I054"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Oluşturma→kodlama→taşıma→geri okuma→kullanım sınırı null, imza, manifest ve checkpoint denetimlerini tamamlar; yalnız yardımcı fonksiyon başarısı yetmez.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R055",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Deney uygulaması ve teknik dokümantasyon",
+    "integrated_ids": [
+      "I055"
+    ],
+    "system_primary_law": "L04",
+    "system_related_laws": [
+      "L04"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Raporla fiilî çalışan yöntem örtüşmeli; Conflux raw/tcs ve inert adaptive rank kaynak örneği olarak korunur, kampanya yeniden koşulmuş sayılmaz.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R056",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Ürün dayanıklılığı ve hizmet sürekliliği",
+    "integrated_ids": [
+      "I056"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Kullanılabilir kısım/eksik/fallback güvencesi ayrı raporlanır; bozuk checkpointi genel warning+skip yapmak bu ilkeyi sağlamaz.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R057",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Düzenleme tekrar yürütme ve toparlanma",
+    "integrated_ids": [
+      "I057"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Araya giren kullanıcı değişikliği ve dış etki korunur; yedek/resume/retention kontrolleri gerçek geri dönüş sınırıyla uygulanır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R058",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Bilgi saklama silme ve çok kullanıcılı sistemler",
+    "integrated_ids": [
+      "I058"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Mahremiyet türevlerde ve silmede sürer; yayın/secret scan, imza rolü, güçlü okuyucu ve never delete normu kendi hata sınıflarıyla değerlendirilir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R059",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Ürün faydası fiyatlama ve iş sonuçları",
+    "integrated_ids": [
+      "I059"
+    ],
+    "system_primary_law": "L08",
+    "system_related_laws": [
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Gerçekleşmiş gelir/tahsilat/tasarruf ve tahmin ayrımı proxy hedef metriği ve doğru billing usage kontrolünü tamamlar; token sayımı ekonomik değerin tamamı değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R060",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Kendini geliştiren sistemler ve model kullanımı",
+    "integrated_ids": [
+      "I060"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Eksikliğe göre tanım/erişim/eğitim seçimi 142 listede ayrı öğrenme politikası değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R061",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Teknoloji seçimi ve geliştirme önceliği",
+    "integrated_ids": [
+      "I061"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Hazır/basit çözüm yeterliyse tercih edilebilir; A5.14 >90% otomatik zorlaştırma ve C1.12 boş GPUya iş üretme önerileri bu amaçla daraltılır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R062",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Performans maliyet ve ölçekleme",
+    "integrated_ids": [
+      "I062"
+    ],
+    "system_primary_law": "L05",
+    "system_related_laws": [
+      "L05"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Profil→darboğaz→optimizasyon ve sürümlü cache yenileme 142de bağımsız hüküm değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R063",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Proje yönetimi ve fayda ölçümü",
+    "integrated_ids": [
+      "I063"
+    ],
+    "system_primary_law": "L04",
+    "system_related_laws": [
+      "L04"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Kabul edilen gerçek iş, azalan kullanıcı yükü ve çözülen belirsizlik ölçülür; GPU util veya belge/dosya sayısı vekildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R064",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Logo ve kavramsal kimlik tasarımı",
+    "integrated_ids": [
+      "I064"
+    ],
+    "system_primary_law": "L08",
+    "system_related_laws": [
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Az öğeyle yoğun logo anlamı frontend kontrast/güvenlik kurallarından farklıdır; P03 özgün konuşması paketlenmemiştir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R065",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Referansla geliştirilen logo ve görseller",
+    "integrated_ids": [
+      "I065"
+    ],
+    "system_primary_law": "L08",
+    "system_related_laws": [
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Referans çizgi/ritim/boşluk/malzeme dili yeni biçimde kurulur; P03 bağlam notu sınırlıdır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R066",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Logo adaylarının seçimi ve olgunlaştırılması",
+    "integrated_ids": [
+      "I066"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Favicon/tek renk/açıklamasız logo sınaması frontend CI matrisi değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R067",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Marka varlıkları ve üretim dosyaları",
+    "integrated_ids": [
+      "I067"
+    ],
+    "system_primary_law": "L08",
+    "system_related_laws": [
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Onaylı amblem masterı ile taslak wordmark ayrımı genel belge statüsünden daha özel üretim sınırıdır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R068",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Çok markalı portföy ve ürün tasarımları",
+    "integrated_ids": [
+      "I068"
+    ],
+    "system_primary_law": "L08",
+    "system_related_laws": [
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Marka renk/dil kararları proje sınırındadır; kullanıcının evrensel estetiği sayılmaz.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R069",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Ürün siteleri ve arayüz anlatımı",
+    "integrated_ids": [
+      "I069"
+    ],
+    "system_primary_law": "L04",
+    "system_related_laws": [
+      "L04"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Konsept sahne ile çalışan ürün kontrolünü ayırma 142de bağımsız tasarım/ürün anlatımı değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R070",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Görsel ve marka dosyalarının teslimi",
+    "integrated_ids": [
+      "I070"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Gerçek alfa/vektör/boyut/düzenlenebilirlik koşulları contrast/focus veya innerHTML ile eşleşmez.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R071",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Ürün arayüzleri ve kısıtlı görsel motorlar",
+    "integrated_ids": [
+      "I071"
+    ],
+    "system_primary_law": "L08",
+    "system_related_laws": [
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Gerçek durum, klavye, renk dışı işaret ve azaltılmış hareket korunur; C4.1 kontrast/focus matrisi tamamlar. Daire boyut/parlaklık sınırı başka ürünlere taşınmaz.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R072",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Şiir şarkı ve mevcut esere ekleme",
+    "integrated_ids": [
+      "I072"
+    ],
+    "system_primary_law": "L08",
+    "system_related_laws": [
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Şiir/şarkıda anlam–ahenk–nefes–komşu kıta ilişkisi yüklenen metnin açık dış kapsamındadır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R073",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Biçim şartı verilen şiir ve şarkılar",
+    "integrated_ids": [
+      "I073"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Aruz/hece/kafiye kontrolü kod syntax kontrolüne eşdeğer değildir; P07 özgün baytları yoktur.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R074",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Şiir şarkı ve nostaljik anlatım",
+    "integrated_ids": [
+      "I074"
+    ],
+    "system_primary_law": "L08",
+    "system_related_laws": [
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "İmgenin anlatı görevi ve duygu işlevi yaratıcı kapsamın eksik hükmüdür.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R075",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Şiir ve şarkının yeniden yazılması",
+    "integrated_ids": [
+      "I075"
+    ],
+    "system_primary_law": "L08",
+    "system_related_laws": [
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Ruh/ritim korunurken hikâyeyi yenileme sürüm diffine indirgenmez.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R076",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Karakter kitap ve uzun yaratıcı projeler",
+    "integrated_ids": [
+      "I076"
+    ],
+    "system_primary_law": "L08",
+    "system_related_laws": [
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Kurmaca şairi kullanıcı biyografisi saymama, anonimleştirme kuralından farklıdır; P11 bağlam notu sınırlıdır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R077",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Sadakat gerektiren fotoğraf dönüşümleri",
+    "integrated_ids": [
+      "I077"
+    ],
+    "system_primary_law": "L08",
+    "system_related_laws": [
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Fotoğrafın mekân/perspektif sadakati ve özel brif yasakları frontend güvenliği değildir; P08 özgün kaynak baytları yoktur.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R078",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Kobe ve benzer görsel anlatı üretimleri",
+    "integrated_ids": [
+      "I078"
+    ],
+    "system_primary_law": "L02",
+    "system_related_laws": [
+      "L02"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Kobe sessiz/enstrümantal biçimi korunur; animatik/süre yöntemleri öneridir, bütün yaratıcı işlere zorunlu değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R079",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Pazarlama teknik belge ve açıklama",
+    "integrated_ids": [
+      "I079"
+    ],
+    "system_primary_law": "L08",
+    "system_related_laws": [
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Pazarlama tonundaki güç, gerçekleşmemiş yetenek uydurma izni değildir; iletişim işine özel tercih korunur.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R080",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Metin müzik istemi ve yayın hazırlığı",
+    "integrated_ids": [
+      "I080"
+    ],
+    "system_primary_law": "L03",
+    "system_related_laws": [
+      "L03"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Dil/karakter/bölüm/araç kısıtları gerçek teslim sözleşmesidir; her işi kod/deney kapısına sokmaz.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R081",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Belge görsel ve diğer somut çıktılar",
+    "integrated_ids": [
+      "I081"
+    ],
+    "system_primary_law": "L08",
+    "system_related_laws": [
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Gerçek açılabilir dosya teslimi raporda kanıt yolu vermekle aynı bağımsız hüküm değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R082",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "İş teslimi ve durum raporu",
+    "integrated_ids": [
+      "I082"
+    ],
+    "system_primary_law": "L07",
+    "system_related_laws": [
+      "L07"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Üretildi/çalıştırıldı/doğrulandı ayrı tutulur; step, done, health, backup ve rapor etiketleri doğru sınırda kanıt ister, salt count yetmez.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R083",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Uzun çalışmalar ve çok parçalı teslimler",
+    "integrated_ids": [
+      "I083"
+    ],
+    "system_primary_law": "L06",
+    "system_related_laws": [
+      "L06"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Set/karar/eksik ve revizyon etkisi handoffla taşınır; her oturum yeniden başlamak veya ilgili olmayan tam kural metnini ritüel okumak şart değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R084",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Web içeriği portföy ve dış sunum",
+    "integrated_ids": [
+      "I084"
+    ],
+    "system_primary_law": "L08",
+    "system_related_laws": [
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Yayın iddiası gerçek durumla sınırlandırılır; pricing trace, secret scan ve güçlü dilin kanıt sınırı bu hükmü tamamlar.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R085",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "THE RULES sürüm yönetimi",
+    "integrated_ids": [
+      "I085"
+    ],
+    "system_primary_law": "L08",
+    "system_related_laws": [
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Kimlik/statü/kapsam/kaynak geçmişi korunur; Y3–7 yönetim mekanizmaları ve findings registry farklı alt uygulamalar olarak bağlanır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R086",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Öğrenme ve ilke değişiklikleri",
+    "integrated_ids": [
+      "I086"
+    ],
+    "system_primary_law": "L06",
+    "system_related_laws": [
+      "L06"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Yeni kanıt/kullanıcı kararı/kapsam değişimi günlüğe işlenir; semver ve audit, hiç tetiklenmeyeni gereksiz saymadan uygulanır.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R087",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "Gelecekte verilecek hazır belgeyle karşılaştırma",
+    "integrated_ids": [
+      "I087"
+    ],
+    "system_primary_law": "L08",
+    "system_related_laws": [
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Gelecek belgeleri bağımsız hüküm düzeyinde karşılaştırma yönetimi 142de aynı amaçta bir kural değildir.",
+    "new_status": "DRAFT"
+  },
+  {
+    "namespace": "synthesis-v1.0",
+    "source_id": "R088",
+    "source_version": "1.0",
+    "source_status": "not individually ratified",
+    "source_level": null,
+    "source_scope": "THE RULES uygulaması ve istisnalar",
+    "integrated_ids": [
+      "I088"
+    ],
+    "system_primary_law": "L08",
+    "system_related_laws": [
+      "L08"
+    ],
+    "relation": "supports_or_operationalizes; not semantic identity",
+    "reason": "Orantılı kayıt ve mevcut yetki korunur; belge/task card/fix test yükü etkisine göre seçilir. Tek işe özgü istisna evrensel tercih değildir.",
+    "new_status": "DRAFT"
+  }
+]
