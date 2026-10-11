@@ -59,7 +59,7 @@ def install(project, context, clients):
     if not chosen or any((c not in PATHS for c in chosen)):
         raise ValueError('choose claude,cursor,antigravity,codex')
     p = selector.select(context) if context is not None else guide.select()
-    selection = ({'version': VERSION, 'clients': chosen, 'catalog_sha256': p['catalog_sha256'], 'profiles_sha256': p['profiles_sha256'], 'phase': p['profile']['id'], 'task': p['task'], 'decision_gap': p['decision_gap']} if context is not None else {'version': VERSION, 'clients': chosen, 'mode': p['mode'], 'guide_sha256': p['guide_sha256']})
+    selection = ({'version': VERSION, 'clients': chosen, 'catalog_sha256': p['catalog_sha256'], 'profiles_sha256': p['profiles_sha256'], 'phase': p['profile']['id'], 'task': p['task'], 'decision_gap': p['decision_gap']} if context is not None else {'version': VERSION, 'clients': chosen, 'mode': p['mode'], 'guide_sha256': p['guide_sha256'], 'provenance_sha256': p['provenance_sha256']})
     if base.exists():
         if not (base / 'clients.json').is_file():
             raise ValueError('existing .the-rules; preserve/remove its own managed integration first')

@@ -17,3 +17,5 @@ library/ içindeki diğer 236 kayıt benimsenmemiş araştırma/aday arşividir;
 Önceki Claude/Antigravity yükleme sonuçları iki-kanun build profiline aittir. Yeni sekizli rehber: Claude Code PASS (kullanıcı tarafından raporlanan, araçları kapalı karşılaştırmalı yükleme testi); Antigravity PASS (sınırlı); Cursor ve Codex NOT RUN. Lisans eklenmedi; genel yeniden kullanım hakkı veya açık kaynak iddiası yok.
 
 [Tam kullanım](README.md) · [Kanıtlar](docs/EVIDENCE.md) · [Yeni deney önerisi](docs/NEXT_EXPERIMENT.md).
+
+Varsayılan kurulum kayıtları advisory/binding:false olarak açıkça yazılır. Kaynak eşlemeleri context/provenance.json içinde taşınır; özel özgün kaynak belgeleri dahil değildir.

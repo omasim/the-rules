@@ -1,14 +1,14 @@
 {
-  "version": "0.14.0-draft",
+  "version": "0.14.1-draft",
   "status": "DRAFT",
   "laws": [
     {
       "id": "L01",
-      "version": "0.3.0-draft",
+      "version": "0.14.1-draft",
       "kind": "core",
       "status": "DRAFT",
       "owner_ratification": null,
-      "level": "mandatory",
+      "level": "advisory",
       "title": "Gerçek problemi belirle",
       "rule": "Problem, kullanıcı ve kullanım koşullarını çözümden önce tanımla. Mevcut çözümü ve eldeki kanıtı araştır; araştırmayı sonraki kararı değiştiren belirsizliğe bağla.",
       "check": "Sorunun ve mevcut çözümün kısa kaydı; önemli iddianın dayanağı ve açık varsayımları.",
@@ -26,18 +26,19 @@
         "R037",
         "R040"
       ],
-      "source_file": "library/source_trace.json",
+      "source_file": "provenance.json",
       "legacy_status": null,
       "related": [],
-      "trigger": "Problem veya kullanıcı ihtiyacı belirsizken"
+      "trigger": "Problem veya kullanıcı ihtiyacı belirsizken",
+      "binding": false
     },
     {
       "id": "L02",
-      "version": "0.3.0-draft",
+      "version": "0.14.1-draft",
       "kind": "core",
       "status": "DRAFT",
       "owner_ratification": null,
-      "level": "mandatory",
+      "level": "advisory",
       "title": "Kritik varsayımı erken sına",
       "rule": "Yanlış olması hâlinde yönü değiştirecek varsayımı seç ve en ucuz anlamlı sınamayla değerlendir. Kullanıcı ihtiyacı, teknik yapılabilirlik ve ticari değer varsayımlarını birbirinin kanıtı sayma.",
       "check": "Varsayım, sınama, karar ölçütü ve gözlenen sonuç. Doğrulayıcı iddiada ölçüt sonuçtan önce kayıtlıdır; keşif açıkça keşiftir.",
@@ -57,18 +58,19 @@
         "R027",
         "R078"
       ],
-      "source_file": "library/source_trace.json",
+      "source_file": "provenance.json",
       "legacy_status": null,
       "related": [],
-      "trigger": "Yanlışlığı yönü değiştirecek varsayım varken"
+      "trigger": "Yanlışlığı yönü değiştirecek varsayım varken",
+      "binding": false
     },
     {
       "id": "L03",
-      "version": "0.3.0-draft",
+      "version": "0.14.1-draft",
       "kind": "core",
       "status": "DRAFT",
       "owner_ratification": null,
-      "level": "mandatory",
+      "level": "advisory",
       "title": "Yeterli ve açık bir çerçeve kur",
       "rule": "Amaç, ilk temel akış, kabul koşulları, kapsam dışı işler ve zaman/maliyet/veri/yetki sınırlarını belirle. Bilinmeyenleri açık bırak; çözülmüş görünmeleri için ayrıntı uydurma.",
       "check": "Kısa proje çerçevesi; küçük işte mevcut görev metni bu kaydı karşılayabilir.",
@@ -88,18 +90,19 @@
         "R048",
         "R080"
       ],
-      "source_file": "library/source_trace.json",
+      "source_file": "provenance.json",
       "legacy_status": null,
       "related": [],
-      "trigger": "Amaç, ilk akış, kabul veya sınırlar eksikken"
+      "trigger": "Amaç, ilk akış, kabul veya sınırlar eksikken",
+      "binding": false
     },
     {
       "id": "L04",
-      "version": "0.3.0-draft",
+      "version": "0.14.1-draft",
       "kind": "core",
       "status": "DRAFT",
       "owner_ratification": null,
-      "level": "mandatory",
+      "level": "advisory",
       "title": "Çerçeveyi çalışan davranışla doldur",
       "rule": "İlk üretimi temel kullanıcı işini uçtan uca gerçekleştiren en dar akışa bağla. Her özellik kabul koşuluna veya onun ön koşuluna hizmet etsin. AI çıktısını ilgili sözleşme ve davranış üzerinden değerlendir.",
       "check": "Girdi → gerçek işlem → kullanılabilir çıktı. Mock kullanıldıysa hangi sınırın simüle olduğu açıkça görünür.",
@@ -121,18 +124,19 @@
         "R063",
         "R069"
       ],
-      "source_file": "library/source_trace.json",
+      "source_file": "provenance.json",
       "legacy_status": null,
       "related": [],
-      "trigger": "Çalışan ilk akış henüz yokken"
+      "trigger": "Çalışan ilk akış henüz yokken",
+      "binding": false
     },
     {
       "id": "L05",
-      "version": "0.3.0-draft",
+      "version": "0.14.1-draft",
       "kind": "core",
       "status": "DRAFT",
       "owner_ratification": null,
-      "level": "mandatory",
+      "level": "advisory",
       "title": "Mühendisliği ihtiyaç ve risk kadar kur",
       "rule": "Veri anlamı, hata davranışı, yetki, kalıcılık ve önemli bileşen sınırlarını açıklaştır. Soyutlama, bağımlılık, servis ve optimizasyonu somut ihtiyaç veya korunacak güvenceyle gerekçelendir.",
       "check": "Önemli tasarım kararının kısa gerekçesi; alternatifin bedeli; gerektiğinde sınır testi veya ölçüm.",
@@ -159,18 +163,19 @@
         "R061",
         "R062"
       ],
-      "source_file": "library/source_trace.json",
+      "source_file": "provenance.json",
       "legacy_status": null,
       "related": [],
-      "trigger": "Veri, hata, yetki sınırı veya mimari kararı varken"
+      "trigger": "Veri, hata, yetki sınırı veya mimari kararı varken",
+      "binding": false
     },
     {
       "id": "L06",
-      "version": "0.3.0-draft",
+      "version": "0.14.1-draft",
       "kind": "core",
       "status": "DRAFT",
       "owner_ratification": null,
-      "level": "mandatory",
+      "level": "advisory",
       "title": "Üretimde çerçeveyi koru",
       "rule": "Yeni fikir, hata veya teknik engelde amacı ve kabul koşullarını yeniden kontrol et. Kapsam değişikliğini gerekçe, maliyet ve kabul etkisiyle görünür yap; yetkilendirilmiş değişikliği uygula.",
       "check": "Yerel düzeltmede korunacaklar; kapsam değişiminde eski/yeni sınır ve karar kaynağı.",
@@ -190,18 +195,19 @@
         "R083",
         "R086"
       ],
-      "source_file": "library/source_trace.json",
+      "source_file": "provenance.json",
       "legacy_status": null,
       "related": [],
-      "trigger": "Yeni fikir, kusur veya teknik engel kapsamı etkilerken"
+      "trigger": "Yeni fikir, kusur veya teknik engel kapsamı etkilerken",
+      "binding": false
     },
     {
       "id": "L07",
-      "version": "0.3.0-draft",
+      "version": "0.14.1-draft",
       "kind": "core",
       "status": "DRAFT",
       "owner_ratification": null,
-      "level": "mandatory",
+      "level": "advisory",
       "title": "Gerçek sınırda doğrula",
       "rule": "Kabul koşulunu kullanılacağı sınırda sınayıp gerçek çıktıyı incele. Testi hatanın etkisine göre seç. Karar, uygulanma ve doğrulanma durumlarını; ölçüm, yorum, eksiklik ve belirsizliği ayrı raporla.",
       "check": "Kabul koşulu → kontrol → gözlenen çıktı → ortam/sürüm → açık sınır. Gerçek dış sistem sınanmadıysa o yetenek doğrulanmış sayılmaz.",
@@ -226,18 +232,19 @@
         "R073",
         "R082"
       ],
-      "source_file": "library/source_trace.json",
+      "source_file": "provenance.json",
       "legacy_status": null,
       "related": [],
-      "trigger": "Kabul veya başarı iddiası doğrulanacakken"
+      "trigger": "Kabul veya başarı iddiası doğrulanacakken",
+      "binding": false
     },
     {
       "id": "L08",
-      "version": "0.3.0-draft",
+      "version": "0.14.1-draft",
       "kind": "core",
       "status": "DRAFT",
       "owner_ratification": null,
-      "level": "mandatory",
+      "level": "advisory",
       "title": "Kullanılabilir çıktı teslim et ve öğren",
       "rule": "Sonucu erişilebilir, açılabilir veya çalıştırılabilir biçimde teslim et. Çalışan kapsamı, önemli eksikleri ve sonraki kararları bildir. Deneyimi kaynağı, kapsamı ve maliyetiyle koru; dersleri gerekirse aday kural yap.",
       "check": "Çıktı bağlantısı/çalıştırma yolu, doğrulama özeti, açık borçlar ve gerektiğinde kısa handoff.",
@@ -269,10 +276,11 @@
         "R087",
         "R088"
       ],
-      "source_file": "library/source_trace.json",
+      "source_file": "provenance.json",
       "legacy_status": null,
       "related": [],
-      "trigger": "Kullanılabilir sonuç teslim edilecek veya ders çıkarılacakken"
+      "trigger": "Kullanılabilir sonuç teslim edilecek veya ders çıkarılacakken",
+      "binding": false
     }
   ]
 }
