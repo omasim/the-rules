@@ -63,7 +63,7 @@ These check selection, source integrity, local install, repeat install, and rest
 
 ## Evidence and limitations
 
-[Evidence summary](docs/EVIDENCE.md) reports successful local integration checks and three pilot families. Live loading in the three new clients and live GitHub download are not yet verified. A rule file is guidance, not a security boundary. We publish limitations and negative results alongside intended behavior.
+[Evidence summary](docs/EVIDENCE.md) reports successful local integration checks and three pilot families. Live loading is reported as PASS for Claude Code only (headless CLI, macOS, `build` profile); Cursor, Antigravity and live GitHub download are not yet verified. A rule file is guidance, not a security boundary. We publish limitations and negative results alongside intended behavior.
 
 ## Status and rights
 
