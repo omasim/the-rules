@@ -1,8 +1,23 @@
-# Historical two-law profile loading tests
+# Gerçek istemci yükleme kontrolleri
 
-These records concern the old build profile. New 0.14 eight-law guide loading is NOT RUN for every client; prior PASS statuses are not transferred to it.
+Bu kontroller yalnız kural dosyasının istemci tarafından yüklendiğini gösterir. Ajanın doğru tetikleyiciyi seçtiğini, kurallara uyduğunu veya üretim kalitesini artırdığını göstermez. Pilot sonuçları değişmez.
 
-# Gerçek istemci kontrolü
+## 0.14 sekizli rehber (güncel kurulum)
+
+| İstemci | Durum | Kayıt |
+|---|---|---|
+| Claude Code | PASS — kullanıcı tarafından raporlanan, araçları kapalı karşılaştırmalı yükleme testi (2.1.295, `claude-opus-5-5`, macOS, headless `-p`) | [CORE_CLAUDE_CODE_2026-10-12](smoke/CORE_CLAUDE_CODE_2026-10-12.md) |
+| Antigravity | PASS (sınırlı) — doğrudan UI gözlemi; araçlar teknik olarak kapatılmadı (2.18.1, Gemini 3.8 Flash High, macOS) | [CORE_ANTIGRAVITY_2026-10-12](smoke/CORE_ANTIGRAVITY_2026-10-12.md) |
+| Cursor | NOT RUN | — |
+| Codex | NOT RUN | — |
+
+Claude Code'da etkileşimli `/context` Memory files görünümü kontrol edilmedi; otomatik yükleme, araçsız kurulu proje ile araçsız kurulumsuz kontrol projesinin karşılaştırılmasıyla gösterildi.
+
+Yeni kontrol için: biri kurulu, biri kurulumsuz iki yeni proje açın; ikisinde de yeni sohbette, kanun kimliklerini veya beklenen değerleri içermeyen aynı istemi kullanın. Mümkünse araçları teknik olarak kapatın; kapatılamıyorsa bunu kayıtta sınır olarak belirtin. İstem ve kayıt biçimi için yukarıdaki kayıtlara bakın. İstemci sürümü, model, işletim sistemi, araç izinleri, görülen dosya yolu ve gerçek yanıtı kaydedin.
+
+## Tarihsel: iki-kanun build profili (0.13)
+
+Bu kayıtlar eski build profiline aittir. Buradaki PASS durumları sekizli rehbere aktarılmaz.
 
 | İstemci | Durum | Kayıt |
 |---|---|---|
