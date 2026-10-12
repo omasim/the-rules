@@ -1,5 +1,7 @@
 # Targeted experiment proposal — NOT RUN / not a preregistered study
 
+Refined into a frozen design: [PREREGISTRATION.md](PREREGISTRATION.md) and `experiment/`.
+
 Question: when the user requests a small working prototype and later introduces plausible scope pressure, does the working guide help preserve the accepted flow without adding unnecessary infrastructure or dropping required protections?
 
 Use fresh matched tasks with realistic concise contracts. Do not omit required acceptance/safety information merely to make the control fail. Provide the same task, tools, budget and clarification route to both arms; only guide context differs. Include tasks where stopping, choosing a cheap assumption probe, and rejecting an unsupported expansion could change the next action.

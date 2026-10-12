@@ -1,0 +1,44 @@
+{
+  "settings": {
+    "model": "claude-opus-5-5",
+    "tools": "Read,Write,Edit,Glob,Grep,Bash",
+    "allowed_tools": "Bash(python3 *)",
+    "permission_mode": "acceptEdits",
+    "permission_prompts": "none",
+    "setting_sources": "project,local",
+    "stage_timeout_s": 900,
+    "removed_env": [
+      "CLAUDECODE",
+      "CLAUDE_CODE_CHILD_SESSION"
+    ]
+  },
+  "claude_version": "2.1.295 (Claude Code)",
+  "files": {
+    "docs/PREREGISTRATION.md": "a7f104b4d3464793eccd1a9af81241bb9df0846306178eabc993faeff2531ae8",
+    "experiment/harness.py": "40f98f88f295cddbd8927fb383f8a56236ce071732ae302e9380124504c9665e",
+    "experiment/tasks/T1_region_summary/bad_scope/storage.py": "6bbc2d0d0f5fe9fdaeadc446070a4dc420cbe3ed32df459fa9197ce88747eab9",
+    "experiment/tasks/T1_region_summary/hidden/check.py": "57fd7894f82773892cca760806050e3a1ea25149b3c8dae3a416f0673eb0c1e2",
+    "experiment/tasks/T1_region_summary/ref/summarize.py": "0c2b30ab56558d8cb6febf6a7b237a8c0f40da91a9d0c2d9cef50a18fb8d9c69",
+    "experiment/tasks/T1_region_summary/seed/data/sales.csv": "3995ee71f4f21727f213cffc2d1ac6d15b4f7f6665ed082da504ffbc3d17a957",
+    "experiment/tasks/T1_region_summary/task.json": "ec0840173356c7e998851c2e6283e5bc37cf44e05a3c80a69c92ab66fe0f52c0",
+    "experiment/tasks/T1_region_summary/unsafe/summarize.py": "a89d9db3effaa4adf3c32aa1a5f68b5b6943d5c9db635703448a9391b86d67d6",
+    "experiment/tasks/T2_file_organizer/bad_scope/organize.py": "6b55de29e8a08e4ad59e0c3f840cd6d4f91fd4392ca5452fdcced0ff54edff90",
+    "experiment/tasks/T2_file_organizer/hidden/check.py": "c075cde76e44a6059f15e566cd569ae6f7a6067d20feefc692d0ed28f36c21ea",
+    "experiment/tasks/T2_file_organizer/ref/organize.py": "a7479bc16dfe870043f64c937c98dceb7ecdd9f5ff317b25192b08225a974e6b",
+    "experiment/tasks/T2_file_organizer/seed/inbox/ESKI.TXT": "0940b28a5bee39898979c348e4d33d1c9e9b42c8a3c7cf0c1517a29da6b5b7dd",
+    "experiment/tasks/T2_file_organizer/seed/inbox/alisveris": "9bff4934167923e92041937f9076c446f7bb71055b5782ffbe9aa32a857d3cb7",
+    "experiment/tasks/T2_file_organizer/seed/inbox/notlar.txt": "8c0639cf70559930febcfa6594b17627a8f107beb800a7a347cbcc81afc62313",
+    "experiment/tasks/T2_file_organizer/seed/inbox/rapor.PDF": "f01292db24577e6175fc098c12316e41407ad4d226ea9b45f141c442427adf4e",
+    "experiment/tasks/T2_file_organizer/seed/inbox/veri.csv": "81bf9fa83c6f7f151bd491a98cd7d933de3965289e3ebd77c6c425f7eaa16392",
+    "experiment/tasks/T2_file_organizer/task.json": "1b3ebdb23e88f3622bfcf6c79fc6cc543595d7cdc6c2965d3aa22994b2ced570",
+    "experiment/tasks/T2_file_organizer/unsafe/organize.py": "216cacf4aa44c5b461ce0f439f751cf0943e4b2b7869f65b6cd446a9de41f469",
+    "experiment/tasks/T3_notes_cli/bad_scope/server.py": "2719d9e36685fc2d2fd8be7199415c1a61773bd64f0be8bffc868372c4e05889",
+    "experiment/tasks/T3_notes_cli/hidden/check.py": "0448a029a29a2c5cf39ecc3b8807a0456d2c92f96a9e93546f82ea4bde739fa7",
+    "experiment/tasks/T3_notes_cli/ref/notes.py": "cec91ff71c8c9faaf7dbef1f151c0b12675b11da04560f2d862507fd0e8cf55f",
+    "experiment/tasks/T3_notes_cli/task.json": "e8a551d1cf657ce89118d3f0026a898bb61f58fd179f1f0e155a61559bb92c27",
+    "experiment/tasks/T3_notes_cli/unsafe/notes.py": "4fdb88aa0a2b300675adcb1c17840b765729f0db199c6963e7f78754be1a2709",
+    "guide/core.json": "3af29d9b8f83062e20b43d868d73dd769ed46afee9d9a8a6a74f5a772525f2f0",
+    "tools/clients.py": "8d0bbcc59ab1970e12d70091362170004faa0ee793d888d29a044b375ce6bb6c",
+    "tools/guide.py": "d8e823d70a7eb52035bbed8b2d07bdf7ed33f050f9148bef9e1dcc2113ff0f4e"
+  }
+}
