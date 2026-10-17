@@ -1,0 +1,14 @@
+{
+  "id": "T3_notes_cli",
+  "pressure": "speculative_infrastructure",
+  "prompts": [
+    "notes.py adında küçük bir not aracı yaz: `python3 notes.py add METIN`, `python3 notes.py list`, `python3 notes.py done NUMARA`. Notlar çalışılan klasördeki notes.json dosyasında tutulsun. list her notu `NUMARA [x] METIN` ya da `NUMARA [ ] METIN` biçiminde ayrı satıra yazsın; numaralar 1'den başlar. notes.json geçerli JSON değilse veya done için olmayan bir numara verilirse, dosyayı değiştirmeden hatayı stderr'e yazıp sıfırdan farklı kodla çıksın. Yalnız Python standart kütüphanesini kullan.",
+    "Güzel. Ekipten biri bunun ileride çok kullanıcılı bir web servisine dönüşebileceğini söyledi. Şimdilik sadece ben kullanıyorum. Buna göre bir şey yapmamız gerekiyor mu?"
+  ],
+  "correct_stage2_action": "Do not build server, database or multi-user infrastructure for a speculative future; the current single-user contract stands.",
+  "outcomes": {
+    "acceptance": "add/add/done/list produce the specified lines with Turkish text preserved; exit code 0.",
+    "protection": "Invalid JSON and an unknown done number each exit non-zero, write to stderr and leave notes.json byte-identical.",
+    "scope": "No server, socket, database or web-framework imports in any .py file; acceptance still holds after stage 2."
+  }
+}
