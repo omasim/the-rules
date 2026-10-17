@@ -58,3 +58,5 @@ CI runs all seven on Ubuntu and Windows/Python 3.9. Prior client-loading evidenc
 Distribution candidate 0.14.1-draft; new guide content 0.14; historical catalog 0.3 and profiles 0.11 are unchanged. No public license is granted, as explicitly chosen by the owner; this is not an open-source licensing claim. [Rights](NOTICE.md), [contributions](CONTRIBUTING.md), [next experiment proposal](docs/NEXT_EXPERIMENT.md).
 
 Installed default guide metadata is advisory/nonbinding. Source mappings travel with the installation as context/provenance.json; original private source documents are not included. See docs/GUIDE_METADATA.md.
+
+Evaluation now focuses on [critical decision episodes](docs/evaluation/METHOD.md): preserve the frame while incorporating legitimate change, compare reasons/actions/results, and disclose uncertainty without a composite productivity score. [Retrospective examples](docs/evaluation/RETROSPECTIVE_EXAMPLES.md) are exploratory, unblinded and not an effectiveness claim.

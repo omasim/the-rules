@@ -1,13 +1,23 @@
-# Targeted experiment proposal — NOT RUN / not a preregistered study
+# Sonraki inceleme — karar tutarlılığı ve çerçeve muhafazası
 
-Refined into a frozen design: [PREREGISTRATION.md](PREREGISTRATION.md) and `experiment/`.
+Bu bir çalıştırılmış deney veya ön kayıtlı etkililik çalışması değildir. [Karar-anı yöntemi](evaluation/METHOD.md), kolay sayılabilen hız/test skorunu hedefin yerine koymadan değerlendirme yolunu tanımlar.
 
-Question: when the user requests a small working prototype and later introduces plausible scope pressure, does the working guide help preserve the accepted flow without adding unnecessary infrastructure or dropping required protections?
+## Önce gerçek olayları anlamak
 
-Use fresh matched tasks with realistic concise contracts. Do not omit required acceptance/safety information merely to make the control fail. Provide the same task, tools, budget and clarification route to both arms; only guide context differs. Include tasks where stopping, choosing a cheap assumption probe, and rejecting an unsupported expansion could change the next action.
+Küçük bir gerçek proje serisinde mevcut görevi çerçeve referansı olarak koru. Üretimde yalnız kritik karar olaylarını dört satırlık kayıt veya mevcut artefakt linkiyle yakala; proje sonrasında gerekçe/eylem/sonuç ilişkisini incele. Bu seri keşif amaçlıdır. Sayı, ilk çalışma hızı veya dosya miktarı başarı puanı değildir.
 
-Before any run freeze tasks, guide hash, requested model/settings, order/randomization, time budget, acceptance checks and rubric. An evaluator unaware of the arm should judge completed artifacts. Primary: real acceptance flow plus required data/error protections and scope retention. Record first-working-flow time from actual command/output events; incomplete runs are censored/incomplete, not fabricated times. File/line counts are secondary descriptive measures, not quality scores. Unnecessary code requires a concrete lack of acceptance/risk justification.
+Olay türleri: karar değiştiren belirsizlik, meşru yeni kanıt, kapsam baskısı, teknik engel, gerekçeli ek mühendislik ve teslim iddiası. Yalnız hataya zorlayan yapay görev seçme. Meşru değişikliklerin de doğru uygulanmasını incele; çerçeve koruma katılık değildir. Gerçek kullanıcı bilgisini eksiltip kontrol grubunu başarısızlığa itme.
 
-Choose sample size from an explicit feasible power/precision rationale before results; no universal significance claim from a small pilot. Record exceptions, cross-arm model variability, failed runs and mixed results. Agent trigger selection is part of what is tested. Repeated results should not alter the original rubric after the fact.
+## Sonra hedefli karşılaştırma
 
-This document proposes a design; tasks, evaluator, sample size and launch are not finalized. No model calls are started by this refactor. Existing pilot texts and outcomes remain unchanged.
+Keşif hangi durumun ayırt edici olabileceğini gösterirse yeni eşlenmiş görevlerde rehberli/rehbersiz karşılaştırmayı önceden tasarla. Aynı model/ayar, görev, yetki, araç ve bütçe kullan; sıra etkisini sınırla. Kriter ve guide hash'ini çalıştırmadan önce sabitle. Kör ikinci değerlendirici mümkünse artefaktları koşuldan bağımsız incelesin; mümkün değilse kör/bağımsız iddiası kurma.
+
+Çalışan kabul ve önemli hata/veri güvenceleri hâlâ gereklidir, ancak tek sonuç değildir. Karar olayında bağlam kaybı, katılık, gereksiz mimari, çözülmüş bilginin yeniden araştırılması ve gerçek değişikliklerin gerekçeli uygulanması karşı örneklerle tartışılır. Açıklama kalitesi tek başına davranış kalitesi değildir. TIMEOUT veya kayıpsız devam kanıtı olmayan olay değerlendirilemiyor olarak korunur.
+
+İlk seri temsili örneklem veya istatistiksel etki tahmini sağlamaz. Sonuçlardan sonra ölçüt değişirse ilk analiz korunur ve ayrı keşif olarak işaretlenir. Tek olumlu olaydan tüm projelere fayda iddiası çıkarılmaz. Amaç yüzde fayda değil, hangi koşulda hangi kararın neden değiştiğini ve bedelini açıklamaktır.
+
+## Yapılmış ön kalibrasyon (2026-10-12)
+
+Bu yöntemden önce, ikili başarı ölçütüyle yapay iki aşamalı görevler için bir [ön kayıt](PREREGISTRATION.md) donduruldu ve yalnız rehbersiz kolla [Phase 0 kalibrasyonu](CALIBRATION_2026-10-12.md) çalıştırıldı. Üç görevde 9/9 koşu bütün kontrolleri geçti (tavan etkisi). Ayrıca dar Bash izni ajanların değişikliği çalıştırıp doğrulamasını engelledi. Rehber koşulmadı; etki iddiası yoktur. Bu bulgu, yapay baskı görevlerinin bu modelde ayırt edici olmadığını ve hedefli karşılaştırmada gerçek doğrulamaya izin veren bir çalışma ortamı gerektiğini gösteren girdi olarak tutulur. Ön kayıttaki Phase 1 bu hâliyle askıdadır; yukarıdaki karar-anı yaklaşımı önceliklidir.
+
+Görevler, bağımsız değerlendirici ve örnekleme planı henüz seçilmedi. Yeni model çağrısı veya kamuya raw proje verisi yayını başlatılmadı. Önceki pilotlar değişmedi.

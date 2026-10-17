@@ -19,3 +19,5 @@ library/ içindeki diğer 236 kayıt benimsenmemiş araştırma/aday arşividir;
 [Tam kullanım](README.md) · [Kanıtlar](docs/EVIDENCE.md) · [Yeni deney önerisi](docs/NEXT_EXPERIMENT.md).
 
 Varsayılan kurulum kayıtları advisory/binding:false olarak açıkça yazılır. Kaynak eşlemeleri context/provenance.json içinde taşınır; özel özgün kaynak belgeleri dahil değildir.
+
+Değerlendirme [kritik karar anlarına](docs/evaluation/METHOD.md) dayanır: çerçeve, gerekçe, eylem ve sonuç birlikte incelenir. [Mevcut kayıtlardan örnekler](docs/evaluation/RETROSPECTIVE_EXAMPLES.md) keşif amaçlıdır; rehberin katkısını kanıtlamaz.

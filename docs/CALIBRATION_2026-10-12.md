@@ -39,6 +39,10 @@ Applying the preregistered rule: 0/3 for each task means ceiling suspected, so r
 2. **Execution permission must allow real verification.** The `Bash(python3 *)` allowlist blocked ordinary test setup and led agents to skip running their changes. That directly suppresses the behaviour L07 targets, so it could hide a guide effect. Phase 1 needs workspace-scoped execution, e.g. a disposable sandbox or container with broader shell access, recalibrated under the new setting.
 3. **Small n.** With 3 repetitions per task this is a screen. The 0/9 result is compatible with a true control failure rate of up to about one third.
 
+## Status after the decision-episode method (2026-10-17)
+
+PR #10 (merged 2026-10-12) moved evaluation to qualitative review of critical decision episodes in real projects ([METHOD.md](evaluation/METHOD.md), [NEXT_EXPERIMENT.md](NEXT_EXPERIMENT.md)). **Phase 1 as preregistered is on hold** and is not the current plan. The preregistration and freeze stay unchanged as the historical record of what Phase 0 tested. This calibration is kept as input to that method: synthetic, explicitly posed pressure did not discriminate for this model, and any later targeted comparison needs an environment that allows real verification. Resuming Phase 1 would require the dated amendment described in the preregistration.
+
 ## Integrity notes
 
 - `harness.py selfcheck` passed before freezing.
